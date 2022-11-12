@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        
+        .count{
+            display: grid;
+            background-color:aqua;
+            font-size: 30px;
+            font-family:  'Smooch', cursive;
+            /* grid-template-columns: 200px 100px 100px; */
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            grid-gap: 2rem;
+            grid-template-areas: 
+            'navbar navbar navbar' 
+            'section section aside'
+            'footer footer footer' ;
+        }
+
+
+        .item{
+            padding: 4px 3px;
+            background-color: beige;
+            color: red;
+        }
+
+        .item a{
+            text-decoration: none;
+            color: #ffffff;
+            padding: 3px;
+            margin: 2px;
+        }
+        #navbar{
+            background-color: black;
+            color: white;
+            grid-area: navbar;
+        }
+       
+        #section{
+            grid-area: section;
+        }
+        input{
+            font-size: 20px;
+            margin: 10px 20px;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #navbar a:hover{
+            background-color: blueviolet;
+        }
+        footer{
+            grid-area: footer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="count">
+        <div id="navbar" class="item"><a href="#">Home</a><a href="#">About us</a><a href="#">Contect</a></div>
+        <div id="section" class="item">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="number" placeholder="Enter Your Age">
+                <input type="text" placeholder="Enter Your Gender">
+                <input type="text" placeholder="Enter Your Locality">
+        </div>
+        <div id="aside" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam sed laboriosam maiores facilis quisquam minus eligendi vel quod nihil! Error in perspiciatis voluptatem vitae expedita, repellat, voluptatibus minima odit quae numquam aliquam sapiente adipisci nemo esse maiores non fuga sequi molestias inventore dolor voluptate atque enim id obcaecati. Eius corrupti ex maiores quo, rem illum repellendus quisquam officia similique vero veniam, ipsa nobis! Tempora exercitationem hic praesentium excepturi dicta consectetur ullam obcaecati sint accusamus modi ab explicabo, harum assumenda architecto dignissimos laboriosam illum. Molestiae nemo, voluptatum ducimus rerum odio,</div>
+    </div>
+    <footer class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur facere earum voluptates numquam unde vel atque incidunt eum obcaecati necessitatibus impedit nihil cumque ipsa ea sed commodi aliquid odit repellat amet illo eveniet error, totam architecto. Enim dignissimos error sint.</footer>
+</body>
+</html>

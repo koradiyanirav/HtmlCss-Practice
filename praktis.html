@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All CSS HTML</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: cursive;
+            font-style: italic;
+            font-size: 15px;
+        }
+
+        div {
+            display: block;
+        }
+
+        #set1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #set1 a {
+            text-decoration: none;
+            color: black;
+        }
+
+
+        .navbar {
+            margin: 4px 2px;
+            height: 30px;
+            width: 200px;
+            background-color: rgb(97, 107, 107);
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 20px;
+            font-family: cursive;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            align-content: center;
+        }
+
+        button:hover {
+            background-color: aquamarine;
+        }
+
+        .sidebar {
+            background-color: aquamarine;
+            border-radius: 8px;
+            color: black;
+            display: flex;
+            margin: 15px;
+            width: 114px;
+            height: 40px;
+            font-size: 17px;
+            font-weight: 600;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        #set2 a {
+            text-decoration: none;
+        }
+
+        .sidebar:hover {
+            color: burlywood;
+            background-color: azure;
+        }
+
+        #set3 {
+            display: grid;
+            justify-content: right;
+            width: 751px;
+            font-size: 20px;
+            margin-top: -180px;
+        }
+
+        label {
+            padding: 2px;
+            margin: 2px;
+            color: crimson;
+        }
+
+        input {
+            text-align: center;
+            color: rgb(222 40 40);
+            background: lightcyan;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+
+        .main1 {
+            width: 16px;
+            margin 0px;
+        }
+
+        .main3 {
+            width: 100px;
+            background-color: azure;
+            font-weight: 600;
+            justify-content: center;
+            display: flex;
+            margin-left: 185px;
+            margin-top: 5px;
+            font-size: 18px;
+        }
+
+        h1 {
+            text-align: center;
+            color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nirav Gym</h1>
+    <div class="main">
+        <div class="count1" id="set1">
+            <nav>
+                <button class="navbar">
+                    <a href="W3PROMO.HTML" target="_blank">Home</a></button>
+                <button class="navbar"><a href="flexbox  sample.html" target="_blank">Servic</a></button>
+                <button class="navbar"><a href="tex.html" target="_blank">Contect Us</a></button>
+                <button class="navbar"><a href="position.html" target="_blank">About Us</a></button>
+            </nav>
+        </div>
+        <div class="count2" id="set2">
+            <a href="Nirav Form.html" class="sidebar">Home</a>
+            <a href="navigation.html" class="sidebar">Servic</a>
+            <a href="how.html" class="sidebar">Contect Us</a>
+            <a href="cale.html" class="sidebar">About Us</a>
+        </div>
+        <div class="count" id="set3">
+            <label for="Name" option="hh">Enter The Name:
+                <input type="text" class="main2" placeholder="Enter The Name"> </label>
+            <label for="Gender">Enter The Gender:
+                <input type="radio" class="main1" name="gender">Male
+                <input type="radio" class="main1" name="gender">Female
+                <input type="radio" class="main1" name="gender">Other</label>
+            <label for="Birth Date">Enter The Birth Date:
+                <input type="text" class="main2" placeholder="Enter The Birth Date"></label>
+            <label for="mail">Enter The Email:
+                <input type="email" class="main2" placeholder="Enter The Email"></label>
+            <label for="Phone">Enter The Phone No:
+                <input type="number" class="main2" placeholder="Enter The Phone No"></label>
+            <input type="button" class="main3" value="Submit"></input>
+        </div>
+        <!-- <div class="count" id="set4"></div>
+    <div class="count" id="set5"></div>
+    <div class="count" id="set6"></div>
+    <div class="count" id="set7"></div>
+    <div class="count" id="set8"></div>
+    <div class="count" id="set9"></div>
+    <div class="count" id="set10"></div> -->
+    </div>
+</body>
+
+</html>

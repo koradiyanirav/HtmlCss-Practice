@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            font-family: system-ui,'Segoe UI';
+            margin: 0px;
+        }
+
+        .the{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            font-size: 10px;
+        }
+
+        .header{
+            padding: 60px;
+            text-align: center;
+            background-color: rgb(45, 189, 189);
+            color: white;
+        }
+        .navbar{
+            background-color: black;
+            display: block;
+            height: 35px;
+        }
+        .navbar a{
+            text-decoration: none;
+            text-align: center;
+            padding: 10px 20px;
+            color: white;
+            display: inline-block;
+        }
+
+        .navbar a:hover{
+            color: blueviolet;
+            background-color: gray;
+        }
+
+        .row{
+            display:flex;
+            flex-wrap: wrap;
+        }
+
+        .side{
+            flex: 70px;
+            padding: 20px;
+            background-color: rgb(190, 189, 189);
+        }
+
+        .main{
+            flex: 70px;
+            padding: 20px;
+            background-color: white;
+        }
+        .fakeimg{
+            background-color: gray;
+            padding: 20px;
+            width: 100%;
+            height: 200px;
+        }
+        .footer{
+            background-color: burlywood;
+            text-align: center;
+            padding: 20px;
+        }
+        @media screen and (max-width: 700px){
+            .row .navbar{
+                background-color: aqua;
+                flex-direction: column ;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="the">
+        <h4>Resize the browser window to see the responsive effect.</h4>
+    </div>
+
+    <div class="header">
+        <h1>My Website</h1>
+        <p>With a <b>flexible</b> layout.</p>
+    </div>
+
+    <div class="navbar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <h5>Photo of me:</h5>
+            <div class="fakeimg">Image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            <h3>More Text</h3>
+            <p>Lorem ipsum dolor sit ame.</p>
+            <div class="fakeimg" style="height: 60px;">Image</div><br>
+            <div class="fakeimg" style="height: 60px;">Image</div><br>
+            <div class="fakeimg" style="height: 60px;">Image</div>
+        </div>
+        <div class="main">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco.</p>
+            <br>
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <div class="fakeimg">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco.</p>
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+
+</html>

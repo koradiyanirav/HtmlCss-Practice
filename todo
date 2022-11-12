@@ -1,0 +1,18 @@
+apply font in one p, other ubuntu font in h1
+apply pink color to h1
+apply light yello to p
+
+border with 500x500 height width with class box
+to box class apply top, left, right bottom with different color, width
+
+create new container class with heading and paragraph
+padding top 50px, left 22px
+margin bottom 10px 
+
+box with heading and paragraph, in center, with border bg
+button with hover, visited, active below box in center
+{
+    padding: 194px;
+    margin-top: -129px;
+    height: 0;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Flexbox</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .coulam {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        .row {
+            flex: 50%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .coulam img {
+            margin-top: 50px;
+            vertical-align: middle;
+        }
+        @media (max-width: 800px) {
+            .row {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="coulam">
+        <div class="row">
+            <img src="/hi1.jpg" style="width:100%">
+            <img src="/hi2.jpg" style="width:100%">
+            <img src="/hi3.jpg" style="width:100%">
+            <img src="/hi4.jpg" style="width:100%">
+            <img src="/hi5.jpg" style="width:100%">
+            <img src="/hi6.jpg" style="width:100%">
+            <img src="/hi7.jpg" style="width:100%">
+        </div>
+        <div class="row">
+            <img src="/hi1.jpg" style="width:100%">
+            <img src="/hi2.jpg" style="width:100%">
+            <img src="/hi3.jpg" style="width:100%">
+            <img src="/hi4.jpg" style="width:100%">
+            <img src="/hi5.jpg" style="width:100%">
+            <img src="/hi6.jpg" style="width:100%">
+            <img src="/hi7.jpg" style="width:100%">
+        </div>
+        <div class="row">
+            <img src="/hi1.jpg" style="width:100%">
+            <img src="/hi2.jpg" style="width:100%">
+            <img src="/hi3.jpg" style="width:100%">
+            <img src="/hi4.jpg" style="width:100%">
+            <img src="/hi5.jpg" style="width:100%">
+            <img src="/hi6.jpg" style="width:100%">
+            <img src="/hi7.jpg" style="width:100%">
+        </div>
+        <div class="row">
+            <img src="/hi1.jpg" style="width:100%">
+            <img src="/hi2.jpg" style="width:100%">
+            <img src="/hi3.jpg" style="width:100%">
+            <img src="/hi4.jpg" style="width:100%">
+            <img src="/hi5.jpg" style="width:100%">
+            <img src="/hi6.jpg" style="width:100%">
+            <img src="/hi7.jpg" style="width:100%">
+        </div>
+        <div class="row">
+            <img src="/hi1.jpg" style="width:100%">
+            <img src="/hi2.jpg" style="width:100%">
+            <img src="/hi3.jpg" style="width:100%">
+            <img src="/hi4.jpg" style="width:100%">
+            <img src="/hi5.jpg" style="width:100%">
+            <img src="/hi6.jpg" style="width:100%">
+            <img src="/hi7.jpg" style="width:100%">
+        </div>
+    </div>
+</body>
+
+</html>

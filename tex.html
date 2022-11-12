@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow</title>
+    <style>
+        /* :root{
+            -o-animation-name: nirav2 ;
+        } */
+        .count{
+            border: 2px solid gray;
+            display: flex;
+            width: 1300px;
+            height:250px;
+            margin: auto;
+            /* flex-direction: center; */
+            /* align-items: center; */
+        }
+        .card{
+            padding: 2px 4px;
+            margin: 20px 15px;
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-color: aquamarine;
+            text-shadow: 1px 1px 2px red;
+            box-shadow: 4px 5px 11px 5px grey;
+            position: relative;
+            /* justify-content: center; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-name: nirav2;
+            animation-duration: 10s;
+            /* animation-direction: 20S; */
+            animation-timing-function:ease-in-out;
+            animation-iteration-count:10;
+            animation-fill-mode: alternate; 
+        }
+
+        @keyframes nirav {
+            from{
+                max-width: 1300px;
+                background: rebeccapurple;
+            }
+            to{
+                max-width: 400px;
+            }
+        }
+        @keyframes nirav2 {
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top: 250px;
+                left: 0px;
+            }
+            75%{
+                top: 250px;
+                left: 250px;
+            }
+            100%{
+                top: 0px;
+                left: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="count">
+        <div class="card" id="crad1">
+            <h2>Mango</h2>
+        </div>
+        <div class="card" id="crad2">
+            <h2>Apple</h2>
+        </div>
+    </div>
+</body>
+</html>

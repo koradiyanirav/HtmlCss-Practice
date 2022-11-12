@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header::before{
+            background: url('ice.jpg') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+            top: 0;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column ;
+            margin: 3px 20px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav{
+            font-family: 'Bree Serif,Serif';
+            font-size: 20px;
+            display: flex;
+        }
+        .nav :hover{
+            color: white;
+            background-color: aquamarine;
+            /* width: 50px; */
+        }
+        li{
+            list-style: none;
+            padding: 20px 23px;
+        }
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav">
+                <li class="item">Home</li>
+                <li class="item">About us</li>
+                <li class="item">Seting</li>
+                <li class="item">Contect us</li>
+            </ul>
+        </nav>
+    </header>    
+        <section>   
+            <h1>Welcom to the codeing</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias a ab, adipisci deleniti odio, deserunt ad
+                velit tempore non assumenda voluptates officiis libero earum repellendus consectetur. Voluptatum autem
+                eaque
+                exercitationem doloremque atque, nisi alias rem ducimus et! Laboriosam, suscipit quaerat.
+            </p>
+        </section>
+    <hr>
+</body>
+
+</html>

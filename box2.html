@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box whith Styling</title>
+    <style>
+        a:link {
+            text-decoration: none;
+        }
+
+        .aam {
+            color: whitesmoke;
+            background-color: rgb(001, 32, 230);
+            font-family: 'Pacifico';
+            font-size: 1cm;
+            border: 3px solid black;
+            padding-block: 3px;
+            /* padding-right: 100px; */
+            margin: 50px;
+            text-align: center;
+        }
+
+        .h {
+            color: brown;
+            background-color: white;
+            font-family: 'Mukta Vaani';
+            font-style: italic;
+            font-size: x-large;
+            text-align: center;
+            border: 3px solid pink;
+            padding: 1px 1px;
+            margin: 2px;
+
+        }
+
+        .btn {
+
+            color: white;
+            background-color: rgb(250, 8, 8);
+            font-family: 'Shrikhand';
+            padding: 5px 5px;
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid black;
+            display: inline-block;
+            font-size: 18px;
+            margin: 8px 4px;
+            cursor: grab;
+            transition: all 0.5s;
+        }
+
+        .btn span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .btn span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .btn:hover {
+            background-color: #008CBA;
+            color: black;
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.25), 0 17px 50px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        .btn:hover span {
+            padding-right: 25px;
+        }
+
+        .btn:hover span::after {
+            /* background-color: #f47136; */
+            color: black;
+            opacity: 1;
+            right: 0;
+        }
+
+        .btn:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .keri {
+            border: 3px solid black;
+            margin: auto;
+            width: 50%;
+        }
+
+        .hex:after {
+            content: "";
+            background: #f1f1f1;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px !important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+        }
+
+        .hex:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="aam">The Mango Shop</header>
+    <div class="h">
+        <h1 class="keri">The Type Of Mango </h1>
+        <P>The electronic city of India, Bangalore, is famous for its Totapuri mangoes, it is also known as Bangalora or
+            Sandersha mangoes. The city's medium-sized greenish yellow mangoes are a mango-lovers delight. These mangoes
+            are available from the month of May to July. The Totapuri is also the significant varieties of mangoes,
+            which are available in our country having both distinct taste as well as aroma.
+        </P>
+        <button class="btn" style="vertical-align:middle"><span>Totapuri Mango</span></button>
+        <hr color="black">
+        <P>The land of Nawabs is also equally famous for its royal mangoes. Lucknow, along with its adjoining towns are
+            widely known for its mango belt of North India. These mangoes are available from mid-May to late August.
+            They are distinguishable from other varieties of mangoes in India for their green peels and also wholesome
+            taste.
+        </P>
+        <button class="btn" id="hex">Dasheri Mango</button>
+        <hr color="red">
+        <P>Raspuri mangoes are extremely popular variety and they are distinguished by its oval shape and its skin,
+            which is almost inedible. The raspuri mango can beat any other mango with regards to taste and also juice
+            per fruit if cultivated and harvested at the right time.
+        </P>
+        <button class="btn">Raspuri Mango</button>
+        <hr color="black">
+        <P>Kesar mangoes owe their name to their saffron appearance and also for its heavenly taste. This variety is
+            highly renowned for their distinct sweet flavor and it is considered to be the Queen of Mangoes. Girnar
+            Hills of Junagadh, Gujarat is famous for their kesar mangoes. These mangoes are available in the month of
+            May to July, and they are also sought after as an ingredient for exotic dishes.
+        </P>
+        <button class="btn x-large">GirKesar Mango</button>
+        <hr color="red">
+    </div>
+</body>
+
+</html>

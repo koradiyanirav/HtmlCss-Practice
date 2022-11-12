@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    margin-top: 80px;
+    background-color: #282A35;
+    color: #f1f1f1;
+    height: 38px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    padding-top: 1.3rem;
+}
+
+.navbar a {
+    padding: 15px 10px 21px 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    overflow: auto;
+    text-align: left;
+}
+
+.navbar a:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+div {
+    float: right;
+    list-style: none;
+    /* margin: 10px 4px; */
+}
+
+.her {
+    background-color: #04AA6D;
+}
+
+.main {
+    padding: 165px;
+    margin-top: -102px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* height: 1500px; */
+}
+
+.sidebar {
+    margin-top: 80px;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 54px;
+    left: 0;
+    background-color: #E7E9EB;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    font-family: Segoe UI, Arial, sans-serif;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: inherit;
+    display: block;
+    line-height: 1.5;
+    /* width: 150px; */
+    /* height: 100%; */
+}
+
+.sidebar a:hover {
+    color: #000000;
+    background-color: #cccccc;
+}
+
+.sidenav {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Segoe UI, sans-serif;
+    padding-left: 16px;
+    margin: -4px 0 4px 0;
+    width: 204px;
+}
+
+.hello {
+    display: flex;
+    text-align: center;
+    background: bisque;
+    width: 500px;
+    justify-content: center;
+    align-content: normal;
+    align-items: center;
+    justify-items: center;
+    padding: 50%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            align-content: center;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .count{
+            height: 100px;
+            margin-bottom: 10px;
+            width: 49%;
+            background-color: aquamarine;
+            box-shadow: 4px 3px rgb(101, 238, 238);
+            overflow: 2px 2px aqua;
+        }
+
+        .count:nth-child(3){
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="count" id="count1"></div>
+        <div class="count" id="count1"></div>
+        <div class="count" id="count1"></div>
+        <div class="count" id="count1"></div>
+        <div class="count" id="count1"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left div {
+    font-family: 'Smooch', cursive;
+    text-align: center;
+    color: #454946;
+    font-style: italic;
+}
+.left div:hover{
+    color: blueviolet;
+}
+.mid {
+    display: block;
+    margin: 20px auto;
+    width: 34%;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: blue;
+    text-decoration: none;
+    padding: 34px 5px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: black;
+    text-decoration: underline;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.btn {
+    width: 80px;
+    font-family: 'Smooch', cursive;
+    cursor: grab;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    margin: 10px 6px;
+    padding: 8px 4px;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: violet;
+}
+.count{
+    border: 2px solid brown;
+    border-radius: 12px;
+    margin: 155px 65px;
+    padding: 7px;
+    width: 32%;
+    float: right;
+}
+.count h1{
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+.form-group input{
+    font-family: 'Smooch', cursive;
+    text-align: center;
+    display: block;
+    margin: 11px auto;
+    width: 344px;
+    padding: 1px;
+    font-size: 16px;
+    border-radius: 8px;
+    animation-name: nirav1;
+}
+.count button{
+    display: block;
+    margin: 4px auto;
+    width: 345px;
+}
+.count button:hover{
+    background-color: gray;
+}
