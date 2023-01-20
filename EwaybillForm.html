@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EwayBill</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .count1, .count2, .count3, .count4, .count5{
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        label{
+            margin:0px 5px 3px 10px;
+            display: flex;
+        }
+
+        label > p{
+            color: red;
+        }
+
+        input{
+            height: 25px;
+            margin: 0px 0px 5px 5px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        textarea{
+            height: 50px;
+            margin: 0px 0px 3px 5px;
+        }
+        
+        .count3{
+            display: flex;
+        }
+
+        .form5{
+            display: flex;
+        }
+
+        .btn{
+            margin: 10px;
+            justify-content: center;
+            border-radius: 10px;
+            border: none;
+            background: #8b8b8b;
+            font-size: 18px;
+            font-family: cursive;
+            width: 100px;
+        }
+        
+        .form1, .form2, .form3, .form4, .form6, .form7{
+            border-radius: 10px;
+            border: 1px solid #121456;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 350px;
+            margin: 5px 0px 0px 10px;
+        }
+
+        /* .main2{
+            display: flex;
+            width: 875px;
+            align-items: center;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="contnier">
+        <form class="count1">
+            <div class="form6">
+                <label for="Invoice-no">Invoice No <p>*</p></label>
+                <input type="text" name="text" id="Invoice-no" required>
+                <label for="Invoice-date">Invoice Date <p>*</p></label>
+                <input type="date" name="date" id="Invoice-date">
+            </div>
+        </form>
+        <form class="count2">
+            <div class="main1">
+                <div class="form1">
+                    <h1>From To</h1>
+                    <label for="Party">Party 1 <p>*</p></label>
+                    <input type="text" name="text" id="Party1" value="Patel Motor Gerag" disabled>
+                    <label for="Party1GST">Party 1 GST <p>*</p></label>
+                    <input type="text" name="text" id="Party1GST">
+                    <label for="Party1Address">Party 1 Address <p>*</p></label>
+                    <textarea id="Party1Address"></textarea>
+                </div>
+            </div>
+        </form>
+        <form class="count3">
+            <div class="form3">
+                <h1>Bil To</h1>
+                <div class="main2">
+                    <label for="Party2">Party 2 <p>*</p></label>
+                    <input type="text" name="text" id="Party2">
+                    <label for="Party2GST">Party 2 GST <p>*</p></label>
+                    <input type="text" name="text" id="Party2GST">
+                    <label for="Party2Address">Party 2 Address <p>*</p></label>
+                    <textarea id="Party2Address"></textarea>
+                </div>
+            </div>
+            <div class="form7">
+                <h1>Ship To</h1>
+                <div class="main3">
+                    <label for="Party3">Party 3 <p>*</p></label>
+                    <input type="text" name="text" id="Party3">
+                    <label for="Party3GST">Party 3 GST <p>*</p></label>
+                    <input type="text" name="text" id="Party3GST">
+                    <label for="Party3Address">Party 3 Address <p>*</p></label>
+                    <textarea id="Party3Address"></textarea>
+                </div>
+            </div>
+        </form>
+        <form class="count4">
+            <div class="form4">
+                <label for="TransportID">Transport ID <p>*</p></label>
+                <input type="text" id="TransportID">
+                <label for="TransportName">Transport Name <p>*</p></label>
+                <input type="text" name="text" id="TransportName">
+            </div>
+        </form>
+        <form class="count5" >
+            <div class="form5">
+                <button  class="btn">Submit</button>
+                <button  class="btn">Preview</button>
+                <button  class="btn">Close</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
