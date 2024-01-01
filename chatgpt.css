@@ -1,0 +1,231 @@
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-buch.13189857.woff2)
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne;
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-buch-kursiv.1052965d.woff2)
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-kraftig.204b461c.woff2)
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne;
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-kraftig-kursiv.a0040f3f.woff2)
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne;
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-halbfett.977f1845.woff2)
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne;
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-halbfett-kursiv.cb37a814.woff2)
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne Mono;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-mono-buch.de677af1.woff2)
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne Mono;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-mono-halbfett.b082e8e2.woff2)
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne Mono;
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-mono-buch-kursiv.8eeb89d0.woff2)
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne Circle;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-circle-buch.d446e5e9.woff2)
+    format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: SÃ¶hne Circle;
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://cdn.oaistatic.com/_next/static/media/soehne-circle-halbfett.9eb377ad.woff2)
+    format("woff2");
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  font-family: SÃ¶hne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji!important;
+  font-variation-settings: normal;
+  line-height: 1.5;
+  tab-size: 4;
+}
+.sti {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.break-words {
+  word-wrap: break-word !important;
+}
+
+ol {
+  counter-reset: list-number;
+}
+
+li {
+  counter-reset: list-number;
+  min-height: 28px;
+}
+.sticky {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.top{
+  top: 0!important;
+}
+
+/* .markdown ol > li:before {
+  
+} */
+
+/* .prose :where(ol):not(:where([class~="not-prose"] *)) {
+  list-style-type: decimal;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
+  padding-left: 1.625em;
+  --tw-translate-x: -100%;
+  --tw-numeric-spacing: tabular-nums;
+  --tw-text-opacity: 1;
+  color: rgba(142, 142, 160, var(--tw-text-opacity));
+  content: counters(list-number, ".") ".";
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero)
+    var(--tw-numeric-figure) var(--tw-numeric-spacing)
+    var(--tw-numeric-fraction);
+  padding-right: 0.5rem;
+} */
+
+code {
+  font-family: "Söhne Mono", Monaco, "Andale Mono", "Ubuntu Mono", monospace !important;
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *)):before {
+  content: "`";
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *)):after {
+  content: "`";
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *)) {
+  color: #111827;
+  font-size: 0.875em;
+  font-weight: 600;
+}
+
+.prose :where(pre):not(:where([class~=not-prose] *)) {
+    background-color: transparent;
+    border-radius: 0.375rem;
+    color: currentColor;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857;
+    margin: 0;
+    overflow-x: auto;
+    padding: 0;
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *)) {
+    color: #111827;
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+:not(pre)>code.hljs, :not(pre)>code[class*=language-] {
+    border-radius: 0.3em;
+    padding: 0.1em;
+    white-space: normal;
+}
+
+code.hljs, code[class*=language-], pre[class*=language-] {
+    word-wrap: normal;
+    background: none;
+    color: #fff;
+    -webkit-hyphens: none;
+    hyphens: none;
+    line-height: 1.5;
+    tab-size: 4;
+    text-align: left;
+    white-space: pre;
+    word-break: normal;
+    word-spacing: normal;
+}
+
+.proses :where(code):not(:where([class~="not-prose"] *)):before {
+    content: "";
+  }
+  
+  .proses :where(code):not(:where([class~="not-prose"] *)):after {
+    content: "";
+  }
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  --tw-border-opacity: 1;
+  background-color: rgba(217, 217, 227, 0.8);
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+  border-radius: 9999px;
+  border-width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 9999px;
+}
