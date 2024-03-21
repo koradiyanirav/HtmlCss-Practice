@@ -1,21 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Botad</title>
-    <style>
-        img{
-            width: 400px;
-            height: 400px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Dropdown Checkbox Table Example</title>
 </head>
-<body>
-   <table>
-    <tbody>
-        <tr>
-            <th></th>
-        </tr>
-    </tbody>
-   </table>
+
+<body class="bg-gray-100 p-4">
+
+    <div class="container mx-auto max-w-3xl">
+        <button id="openDropdown" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Open Dropdown
+        </button>
+
+        <!-- Dropdown Modal -->
+        <div id="dropdownModal" class="hidden fixed inset-0 bg-gray-500 bg-opacity-75 overflow-y-auto">
+            <div class="flex items-center justify-center h-screen">
+                <div class="bg-white p-8 rounded shadow-md w-96">
+                    <h2 class="text-2xl font-bold mb-4">Select Options</h2>
+                    <div class="space-y-2">
+                        <label class="flex items-center">
+                            <input type="checkbox" class="form-checkbox" value="Option 1"> Option 1
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" class="form-checkbox" value="Option 2"> Option 2
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" class="form-checkbox" value="Option 3"> Option 3
+                        </label>
+                    </div>
+                    <button id="submitDropdown"
+                        class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table -->
+        <table id="dataTable" class="mt-8 w-full border-collapse border border-gray-300">
+            <thead>
+                <tr>
+                    <th class="border border-gray-300 p-2">Selected Options</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Open Dropdown
+            $("#openDropdown").click(function () {
+                $("#dropdownModal").removeClass("hidden");
+            });
+
+            // Submit Dropdown Options
+            $("#submitDropdown").click(function () {
+                // Get selected checkboxes from the dropdown
+                var selectedOptions = [];
+                $("input:checkbox:checked").each(function () {
+                    selectedOptions.push($(this).val());
+                });
+
+                // Add selected options to the table
+                var tableBody = $("#dataTable tbody");
+                tableBody.empty();
+                $.each(selectedOptions, function (index, value) {
+                    tableBody.append("<tr><td class='border border-gray-300 p-2'>" + value + "</td></tr>");
+                });
+
+                // Close Dropdown Modal
+                $("#dropdownModal").addClass("hidden");
+            });
+        });
+    </script>
+
 </body>
+
 </html>

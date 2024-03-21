@@ -1,0 +1,849 @@
+/**
+ * Copyright Gem360 v1.0.1
+ * Developed and Designed by Gem360. All Rights Reserved
+ */
+* {
+    font-family: Arial, sans-serif;
+}
+
+.top_information_block *,
+.wrapper_block *,
+.sprintspin_box * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+body {
+    margin: 0
+}
+
+#sprintspin-360 {
+    display: table;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    -webkit-box-shadow: 0 8px 17px 2px rgba(150, 150, 150, .14), 0 3px 14px 2px rgba(150, 150, 150, .12), 0 5px 5px -3px rgba(150, 150, 150, .2);
+    box-shadow: 0 8px 17px 2px rgba(150, 150, 150, .14), 0 3px 14px 2px rgba(150, 150, 150, .12), 0 5px 5px -3px rgba(150, 150, 150, .2);
+    border-radius: 12px
+}
+
+#canvas-elemnet {
+    position: relative;
+    margin: 5px 5px 6px
+}
+
+#Gem360 {
+    width: 100%
+}
+
+#gem360-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    text-align: center
+}
+
+#gem360-loader img {
+    position: relative;
+    top: 0;
+    width: 100%
+}
+
+#canvas360 {
+    width: 100%
+}
+
+#progress-bar {
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background: #2f7cce;
+    bottom: 4px
+}
+
+#left-side,
+#right-side {
+    position: absolute;
+    top: 5px;
+    display: none;
+
+}
+
+#left-side {
+    left: -15px
+}
+
+#right-side {
+    right: 5px
+}
+
+#left-side img,
+#right-side img {
+    width: auto;
+    max-width: 150px;
+    max-height: 12px
+}
+
+#information-table {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 4px);
+    background: rgba(0, 0, 0, .75);
+    color: #fff;
+    display: none
+}
+
+#information {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+#information td:nth-child(odd) {
+    text-align: right;
+    padding: 4px 8px
+}
+
+#information td {
+    width: 50%;
+    vertical-align: baseline
+}
+
+#information td {
+    width: 50%;
+    vertical-align: baseline
+}
+
+#information-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 24px;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.1;
+    border-radius: 50px;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: 700
+}
+
+#close-btn {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1;
+    border-radius: 50px;
+    padding: 2px;
+    cursor: pointer
+}
+
+#close-btn img,
+#information-btn img {
+    width: 26px;
+    height: 26px
+}
+
+#poweredby-gem360 {
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 0;
+    color: #fff;
+    font-size: 11px;
+    z-index: 1
+}
+
+#poweredby-gem360 img {
+    width: auto;
+    max-width: 150px;
+    max-height: 11px
+}
+
+#canvas-controls {
+    display: none;
+    width: 100%
+}
+
+#canvas-controls .control-btn {
+    width: calc(20% - 14px);
+    margin: 5px;
+    background: 0 0;
+    box-shadow: none;
+    border: 1px solid #222;
+    padding: 5px 2px;
+    border-radius: 8px;
+    outline: 0;
+    cursor: pointer;
+    height: 42px
+}
+
+#canvas-controls .control-btn:active,
+#canvas-controls .control-btn:focus {
+    -webkit-tap-highlight-color: transparent
+}
+
+#canvas-controls .control-btn img {
+    height: 28px;
+    width: auto;
+    vertical-align: middle
+}
+
+#Gem360.invert {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+    -o-filter: invert(100%);
+    filter: invert(100%)
+}
+
+::selection {
+    background: 0 0
+}
+
+button::-moz-focus-inner {
+    border: 0
+}
+
+@media only screen and (max-width:767px) {
+    #information td {
+        font-size: 13px
+    }
+
+    #sprintspin-360 {
+        max-width: 100%;
+        padding: 6px;
+        margin: 0 auto
+    }
+
+    #canvas-elemnet {
+        margin: 4px 4px 5px
+    }
+
+    #progress-bar {
+        bottom: 5px
+    }
+
+    #canvas-controls .control-btn {
+        width: calc(20% - 12px);
+        height: auto;
+        margin: 4px
+    }
+
+    #canvas-controls .control-btn img {
+        height: 20px
+    }
+}
+
+.right_block {
+    display: none
+}
+
+.sprintspin_block {
+    display: table;
+    height: 100%;
+    width: 1090px;
+    margin: 0 auto;
+    padding: 0px
+}
+
+.sprintspin_block #canvas-elemnet {
+    margin: 0 0 6px
+}
+
+body,
+html {
+    height: 100%
+}
+
+.sprintspin_block #canvas-controls {
+    margin-bottom: -5px
+}
+
+.sprintspin_block #canvas-controls #first-row,
+.sprintspin_block #canvas-controls #second-row {
+    margin-left: -5px;
+    margin-right: -7px
+}
+
+.sprintspin_block .left-block {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding: 0 15px 0 0;
+    box-sizing: border-box
+}
+
+.sprintspin_block .right_block {
+    display: table-cell;
+    vertical-align: text-bottom;
+    width: 50%;
+    background: url(https://assets.gem360.in/images/Gem360_background3.jpg);
+    background-size: cover;
+    padding: 0 0 50px 10px;
+    box-sizing: border-box;
+    position: relative;
+    border-left: 15px solid #fff
+}
+
+.sprintspin_block .gem_data {
+    border: 2px solid #dfdfdf;
+    padding: 10px;
+    min-height: 430px;
+    background: #fff;
+    box-sizing: border-box
+}
+
+.sprintspin_block .right_block .desc_block .information .col {
+    font-weight: 100;
+    display: table-row
+}
+
+.sprintspin_block .right_block .desc_block .information .col .label {
+    display: table-cell;
+    text-align: right;
+    color: #afafaf;
+    padding-right: 3px;
+    box-sizing: border-box;
+    font-size: 18px;
+    vertical-align: bottom;
+    white-space: nowrap;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 50%
+}
+
+#information_inner {
+    display: table;
+    width: 100%
+}
+
+.sprintspin_block .right_block .desc_block .information .col .info {
+    display: table-cell;
+    font-size: 21px;
+    padding-left: 3px;
+    box-sizing: border-box;
+    line-height: normal;
+    color: #333;
+    font-weight: 100;
+    vertical-align: middle;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 50%;
+    word-break: break-all
+}
+
+.sprintspin_block .right_block .desc_block .information {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.sprintspin_block .right_block .desc_block {
+    display: table;
+    min-height: 410px;
+    margin: 0 auto;
+    width: 100%
+}
+
+.sprintspin_block .share_data .share_link a {
+    width: calc(20% - 14px);
+    margin: 5px;
+    background: 0 0;
+    box-shadow: none;
+    border: 1px solid #222;
+    padding: 5px 2px;
+    border-radius: 8px;
+    outline: 0;
+    cursor: pointer;
+    height: 42px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #fff;
+    text-align: center
+}
+
+.sprintspin_block .share_data .share_link {
+    margin-left: -15px;
+    margin-right: -7px
+}
+
+.sprintspin_block .share_data {
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    right: 0;
+    padding-left: 10px;
+    padding-right: 0;
+    background: #fff;
+    padding-top: 6px
+}
+
+.sprintspin_block .middle_content {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0px
+}
+
+.sprintspin_block #sprintspin-360 {
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    width: 100%
+}
+
+.sprintspin_block .middle_content .sprintspin_box {
+    -webkit-box-shadow: 0 8px 17px 2px rgba(150, 150, 150, .14), 0 3px 14px 2px rgba(150, 150, 150, .12), 0 5px 5px -3px rgba(150, 150, 150, .2);
+    box-shadow: 0 8px 17px 2px rgba(150, 150, 150, .14), 0 3px 14px 2px rgba(150, 150, 150, .12), 0 5px 5px -3px rgba(150, 150, 150, .2);
+    border-radius: 12px;
+    display: table;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box
+}
+
+.sprintspin_block .middle_content .bg_block {
+    margin: 8.1%
+}
+
+.sprintspin_block .share_data .share_link a svg {
+    display: block;
+    margin: 3px auto
+}
+
+.link_modal,
+.share_modal {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.modal-wrapper {
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 1.5em hsla(0, 0%, 0%, .35)
+}
+
+.modal-transition {
+    transition: all .3s .12s;
+    transform: translate(-50%, -50%)
+}
+
+.share_modal .modal-content {
+    margin-bottom: -5px
+}
+
+.close,
+.linkclose {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: 700;
+    margin-right: 9px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.close:focus,
+.close:hover,
+.linkclose:focus,
+.linkclose:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.modal-content>:first-child {
+    margin-top: 0
+}
+
+.modal-content>:last-child {
+    margin-bottom: 0
+}
+
+.modal_open {
+    width: 100%;
+    overflow: hidden
+}
+
+.stroke-1 {
+    stroke: red;
+    stroke-width: 1
+}
+
+::selection {
+    background-color: #3390ff;
+    color: #fff
+}
+
+#information-btn {
+    display: none
+}
+
+.share_modal .modal-content .logo_popup {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 52%;
+    left: 50%;
+    text-align: center;
+    background: #fff
+}
+
+.share_modal .modal-content .logo_popup img {
+    width: 130px
+}
+
+.link_modal .modal-content {
+    display: table
+}
+
+.link_modal .modal-body a {
+    border: 1px solid #222;
+    background: 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 8px;
+    white-space: nowrap;
+    margin-left: 15px;
+    font-size: 14px;
+    border-radius: 8px
+}
+
+.link_modal .modal-body a:focus,
+.link_modal .modal-body a:focus-within,
+.link_modal .modal-body a:hover {
+    outline: 0;
+    background: #e7e7e7
+}
+
+.link_modal .modal-body span {
+    font-size: 16px;
+    vertical-align: middle;
+    width: calc(100% - 100px);
+    display: table-cell;
+    white-space: nowrap
+}
+
+.link_modal .modal-body {
+    padding: 30px
+}
+
+@media only screen and (max-width:1120px) {
+    .sprintspin_block {
+        display: table;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+        box-sizing: border-box
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .sprintspin_block .gem_data {
+        min-height: auto
+    }
+
+    .sprintspin_block .right_block .desc_block {
+        height: 292px;
+        display: table;
+        min-height: auto
+    }
+
+    .middle_content .bg_block {
+        margin: 4%
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col .info {
+        font-size: 16px
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col .label {
+        font-size: 15px
+    }
+
+    .link_modal .modal-body span {
+        white-space: normal;
+        word-break: break-all;
+        display: inline-block
+    }
+
+    .link_modal .modal-body a {
+        display: inline-block
+    }
+
+    .link_modal .modal-wrapper {
+        width: 600px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .sprintspin_block .left-block {
+        width: 100%;
+        display: block;
+        border-right: 0;
+        padding: 0
+    }
+
+    .sprintspin_block .right_block {
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin-top: 10px;
+        border: 0;
+        background: 0 0
+    }
+
+    .sprintspin_block .share_data .share_link {
+        margin-left: -5px
+    }
+
+    .sprintspin_block .middle_content .sprintspin_box {
+        display: block;
+        width: 100%;
+        padding: 10px
+    }
+
+    .sprintspin_block .share_data {
+        position: relative;
+        padding: 0;
+        margin-top: 5px;
+        margin-bottom: -10px;
+        bottom: 0
+    }
+
+    .sprintspin_block .right_block .desc_block {
+        height: auto
+    }
+
+    .sprintspin_block .middle_content .bg_block {
+        margin: 0
+    }
+
+    .sprintspin_block .middle_content {
+        padding: 0;
+        display: block
+    }
+
+    .sprintspin_block .share_data .share_link a {
+        width: calc(20% - 12px);
+        height: auto;
+        margin: 4px
+    }
+
+    .sprintspin_block .share_data .share_link a img {
+        width: 20px
+    }
+
+    .modal-wrapper {
+        max-width: 300px;
+        margin-left: 0;
+        transform: translate(-50%, -50%);
+        margin-top: 8px
+    }
+
+    .sprintspin_block .gem_data {
+        border: 0;
+        border-top: 1px solid #dfdfdf;
+        padding: 10px 0
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col .info {
+        font-size: 14px;
+        display: inline-block;
+        text-align: left;
+        width: 74px
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col .label {
+        font-size: 12.5px;
+        width: 86px;
+        display: inline-block
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col {
+        font-weight: 100;
+        display: inline-block;
+        width: 49.3%;
+        margin: 1.5px 0;
+        text-align: center
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col:last-child {
+        display: block;
+        width: 100%;
+        text-align: center
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col:last-child span.label {
+        text-align: right;
+        float: left;
+        padding-right: 0;
+        width: 25%
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col:last-child span.info {
+        display: table-cell;
+        width: auto;
+        vertical-align: middle;
+        padding-left: 5px;
+        padding-bottom: 0;
+        padding-top: 0px
+    }
+
+    .sprintspin_block {
+        padding: 0
+    }
+
+    .sprintspin_block .share_data .share_link a svg {
+        margin: 0 auto;
+        height: 20px
+    }
+
+    .link_modal .modal-wrapper {
+        width: 100%
+    }
+
+    .link_modal .modal-body a {
+        margin: 10px 0 0;
+        font-size: 12px
+    }
+
+    .link_modal .modal-body span {
+        display: block;
+        width: 100%;
+        font-size: 14px
+    }
+
+    #information_inner {
+        display: unset
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .sprintspin_block .right_block .desc_block .information .col .info {
+        font-size: 12px;
+        display: inline-block;
+        width: 65px;
+        word-break: break-all
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col .label {
+        font-size: 10.5px;
+        display: inline-block;
+        width: 74px
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col:last-child span.label {
+        text-align: right;
+        float: left;
+        padding-right: 0;
+        width: 65px
+    }
+}
+
+#progress_bar_section {
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    background-color: #ddd;
+    margin-bottom: 5px
+}
+
+#progress_bar {
+    height: 5px;
+    background-color: #3895d3
+}
+
+.link_modal .modal-body span {
+    font-size: 16px;
+    vertical-align: middle;
+    width: calc(100% - 100px);
+    display: table-cell;
+    white-space: nowrap
+}
+
+#link_copy_input textarea {
+    width: 0px;
+    opacity: 0;
+    font-size: 0px;
+    padding: 0px;
+    border: 0;
+    display: table;
+}
+
+.link_modal .modal-body {
+    padding: 30px
+}
+
+.link_modal .modal-body a {
+    position: relative;
+    display: inline-block;
+}
+
+@media only screen and (max-width:991px) {
+    .link_modal .modal-body span {
+        white-space: normal;
+        word-break: break-all;
+        display: inline-block
+    }
+
+    .link_modal .modal-body a {
+        display: inline-block
+    }
+
+    .link_modal .modal-wrapper {
+        width: 600px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .link_modal .modal-wrapper {
+        width: 100%
+    }
+
+    .link_modal .modal-body a {
+        margin: 10px 0 0;
+        font-size: 12px
+    }
+
+    .link_modal .modal-body span {
+        display: block;
+        width: 100%;
+        font-size: 14px
+    }
+
+    .sprintspin_block .right_block .desc_block .information .col .info,
+    .sprintspin_block .right_block .desc_block .information .col .label {
+        font-weight: 500;
+    }
+}

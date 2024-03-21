@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Select Example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+    <div class="p-6 select-none">
+        <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md" id="openPopupBtn">Open Popup</button>
+    </div>
+    <div class="hidden fixed inset-0 bg-gray-500 bg-opacity-75 select-none overflow-y-auto" id="popupModal">
+        <div class="bg-white w-1/2 mx-auto mt-16 mb-8 p-6 rounded-md">
+            <div class="mb-2">
+                <div class="flex gap-10">
+                    <h2 class="block text-gray-700 text-sm font-bold mb-2">
+                        Topic
+                    </h2>
+                    <div class="space-y-2" id="exampleSelect">
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 1"> <span class="ml-2"> Option
+                                1</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 2"> <span class="ml-2"> Option
+                                2</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 3"> <span class="ml-2"> Option
+                                3</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 4"> <span class="ml-2"> Option
+                                4</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 5"> <span class="ml-2"> Option
+                                5</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 6"> <span class="ml-2"> Option
+                                6</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 7"> <span class="ml-2"> Option
+                                7</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 8"> <span class="ml-2"> Option
+                                8</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 9"> <span class="ml-2"> Option
+                                9</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 10"> <span class="ml-2"> Option
+                                10</span>
+                        </label>
+                    </div>
+                    <div class="space-y-2" id="exampleSelect2">
+                        <h2 class="block text-gray-700 text-sm font-bold mb-2">
+                            Subcategroy
+                        </h2>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 11"> <span class="ml-2"> Option
+                                11</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 12"> <span class="ml-2"> Option
+                                12</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 13"> <span class="ml-2"> Option
+                                13</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 14"> <span class="ml-2"> Option
+                                14</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 15"> <span class="ml-2"> Option
+                                15</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 16"> <span class="ml-2"> Option
+                                16</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 17"> <span class="ml-2"> Option
+                                17</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 18"> <span class="ml-2"> Option
+                                18</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 19"> <span class="ml-2"> Option
+                                19</span>
+                        </label>
+                        <label class="flex items-center gap-1">
+                            <input type="checkbox" class="form-checkbox" value="Option 20"> <span class="ml-2"> Option
+                                20</span>
+                        </label>
+                    </div>
+                </div>
+                <button id="submitOptions"
+                    class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Submit
+                </button>
+            </div>
+            <div class="">
+                <h2 class="text-xl font-bold mb-4">Selected Options</h2>
+                <table id="dataTable" class="mt-8 w-full border-collapse border border-gray-300">
+                    <thead>
+                        <tr>
+                            <th class="border border-gray-300 p-2">Topic</th>
+                            <th class="border border-gray-300 p-2">Subcategroy</th>
+                            <th class="border border-gray-300 p-2">Tags</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md" id="closePopupBtn">Close
+                Popup</button>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#openPopupBtn').click(function () {
+                $('#popupModal').removeClass('hidden');
+                $("#submitOptions").click(function () {
+                    var selectedOptions = [];
+                    $("input:checkbox:checked").each(function () {
+                        selectedOptions.push($(this).val());
+                    });
+                    var tableBody = $("#dataTable tbody");
+                    tableBody.empty();
+                    $.each(selectedOptions, function (index, value) {
+                        tableBody.append("<tr><td class='border border-gray-300 p-2'>" + value + "</td><td class='border border-gray-300 p-2'><select class='w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500'><option>Option 1</option><option>Option 2</option><option>Option 3</option><option>Option 4</option></select ></td><td class='border border-gray-300 p-2'><select class='w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500'><option>Option 1</option><option>Option 2</option><option>Option 3</option><option>Option 4</option></select ></td></tr>");
+                    });
+                    $("#checkboxModal").addClass("hidden");
+                });
+            });
+            $('#closePopupBtn').click(function () {
+                $('#popupModal').addClass('hidden');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex body-resume">
+                <div class="preview-container js-document-wrap position-relative " id="resumeDoc">
+                    <div class="loader-overlay loader-overlay-resume position-absolute d-none" id="resumeLoader">
+                        <div class="loader-img"></div>
+                    </div>
+                    <div class="spellcheck-notification "></div>
+                    <div class="" tabindex="">
+                        <div>
+                            <style type="text/css" id="static">
+                                /*Font support for MAC*/
+                                @font-face {
+                                    font-family: 'Century Gothic';
+                                    font-weight: normal;
+                                    font-style: normal;
+                                    src: local('Century Gothic'), url('/blobcontent/zty/fonts/CenturyGothic.ttf') format('truetype')
+                                }
+
+                                @font-face {
+                                    font-family: 'Century Gothic';
+                                    font-weight: bold;
+                                    font-style: normal;
+                                    src: local('Century Gothic Bold'), url('/blobcontent/zty/fonts/CenturyGothicBold.ttf') format('truetype')
+                                }
+
+                                @font-face {
+                                    font-family: 'Century Gothic';
+                                    font-weight: bold;
+                                    font-style: italic;
+                                    src: local('Century Gothic Bold Italic'), url('/blobcontent/zty/fonts/CenturyGothicBoldItalic.ttf') format('truetype')
+                                }
+
+                                @font-face {
+                                    font-family: 'Century Gothic';
+                                    font-weight: normal;
+                                    font-style: italic;
+                                    src: local('Century Gothic Italic'), url('/blobcontent/zty/fonts/CenturyGothicItalic.ttf') format('truetype')
+                                }
+
+                                html,
+                                body,
+                                div,
+                                span,
+                                applet,
+                                object,
+                                iframe,
+                                h1,
+                                h2,
+                                h3,
+                                h4,
+                                h5,
+                                h6,
+                                p,
+                                blockquote,
+                                pre,
+                                a,
+                                abbr,
+                                acronym,
+                                address,
+                                big,
+                                cite,
+                                code,
+                                del,
+                                dfn,
+                                em,
+                                font,
+                                img,
+                                ins,
+                                kbd,
+                                q,
+                                s,
+                                samp,
+                                small,
+                                strike,
+                                strong,
+                                sub,
+                                sup,
+                                tt,
+                                var,
+                                b,
+                                u,
+                                i,
+                                center,
+                                dl,
+                                dt,
+                                dd,
+                                ol,
+                                ul,
+                                li,
+                                fieldset,
+                                form,
+                                label,
+                                legend,
+                                table,
+                                caption,
+                                tbody,
+                                tfoot,
+                                thead,
+                                tr,
+                                th,
+                                td {
+                                    margin: 0;
+                                    padding: 0;
+                                    border: 0;
+                                    outline: 0;
+                                    vertical-align: baseline;
+                                    background: transparent
+                                }
+
+                                body {
+                                    text-align: left;
+                                    font-feature-settings: "liga" 0;
+                                    -moz-font-feature-settings: "liga" off
+                                }
+
+                                .skn-srz4 ol,
+                                .skn-srz4 ul {
+                                    list-style: none
+                                }
+
+                                .skn-srz4 table {
+                                    border-collapse: collapse;
+                                    border-spacing: 0;
+                                    font-size: inherit;
+                                    color: inherit;
+                                    width: 100%
+                                }
+
+                                /*START content disc style for LI*/
+                                .skn-srz4 ul,
+                                .skn-srz4 li {
+                                    margin: 0;
+                                    padding: 0;
+                                    list-style-type: disc
+                                }
+
+                                .skn-srz4 ul li {
+                                    margin: 0 0 0 16px;
+                                    padding: 0
+                                }
+
+                                @-moz-document url-prefix() {
+                                    .skn-srz4 ul li {
+                                        margin: 0 0 0 12px;
+                                        padding: 0 0 0 3px
+                                    }
+                                }
+
+                                /*END content disc style for LI*/
+
+                                /*table style*/
+                                .skn-srz4 table.skills,
+                                .skn-srz4 .table_wrapper {
+                                    width: 100%;
+                                    margin-top: 0;
+                                    word-wrap: break-word
+                                }
+
+                                .skn-srz4 table.skills th,
+                                .skn-srz4 table.skills td {
+                                    width: 20%;
+                                    text-align: center
+                                }
+
+                                .skn-srz4 table.skills .skillname,
+                                .skn-srz4 table.skills .skillrating {
+                                    text-align: left;
+                                    width: 35%
+                                }
+
+                                .skn-srz4 table.skills .skillrating {
+                                    width: 20%
+                                }
+
+                                .skn-srz4 table.skills .skillyears,
+                                .skn-srz4 table.skills .skilllast {
+                                    width: 19%
+                                }
+
+                                .skn-srz4 table.skills .pad1 {
+                                    width: 5%
+                                }
+
+                                .skn-srz4 .skills .pad2,
+                                .skn-srz4 table.skills .pad3 {
+                                    width: 1%
+                                }
+
+                                /* document */
+                                .skn-srz4 {
+                                    box-sizing: border-box;
+                                    color: #343434;
+                                    font-variant-ligatures: none;
+                                    line-height: 16px;
+                                    min-height: 792px;
+                                    word-wrap: break-word
+                                }
+
+                                .skn-srz4 .name {
+                                    color: #fff;
+                                    font-weight: 700;
+                                    position: relative;
+                                    text-align: left;
+                                    word-wrap: break-word
+                                }
+
+                                .skn-srz4 .address .singlecolumn {
+                                    margin-left: 0 !important
+                                }
+
+                                .skn-srz4 .heading {
+                                    border-bottom: 1px solid #d5d6d6;
+                                    font-weight: 700;
+                                    letter-spacing: 0;
+                                    line-height: 15px;
+                                    margin-bottom: 10px;
+                                    padding: 0 0 3px
+                                }
+
+                                .skn-srz4 .sectiontitle {
+                                    color: #252932;
+                                    word-wrap: break-word
+                                }
+
+                                .skn-srz4 .degreeGap {
+                                    margin-bottom: 4px
+                                }
+
+                                .skn-srz4 .locationGap {
+                                    margin-top: 4px
+                                }
+
+                                .skn-srz4 .firstparagraph {
+                                    margin-top: 0 !important
+                                }
+
+                                .skn-srz4 .topsection {
+                                    background: #373d48;
+                                    padding: 15px 15px 20px
+                                }
+
+                                .skn-srz4 .section:empty,
+                                .skn-srz4 .hide-bar .ratingWrapper .noLnht,
+                                .skn-srz4 .hide-bar .field-ratt,
+                                .skn-srz4 .hide-bar .ratingWrapper .paddedline {
+                                    display: none
+                                }
+
+                                .skn-srz4 .education .joblocation {
+                                    font-style: italic
+                                }
+
+                                .skn-srz4 .parentContainer {
+                                    border-collapse: collapse;
+                                    display: table;
+                                    min-height: inherit;
+                                    padding-bottom: 20px;
+                                    table-layout: fixed;
+                                    width: 100%
+                                }
+
+                                .skn-srz4 .resumeTitle {
+                                    color: #fff;
+                                    padding-top: 7px
+                                }
+
+                                /*left and right css*/
+                                .skn-srz4 .right-box,
+                                .skn-srz4 .left-box {
+                                    padding: 15px
+                                }
+
+                                .skn-srz4 .right-box {
+                                    background-color: #f4f4f4;
+                                    box-sizing: content-box;
+                                    display: table-cell;
+                                    letter-spacing: .2px;
+                                    vertical-align: top
+                                }
+
+                                .skn-srz4 .left-box .paddedline.date-content {
+                                    position: absolute;
+                                    font-weight: 700;
+                                    margin-left: 0;
+                                    width: 65px
+                                }
+
+                                .skn-srz4 .paragraph .singlecolumn {
+                                    position: relative
+                                }
+
+                                .skn-srz4 .left-box .summary .paragraph .singlecolumn {
+                                    margin-left: 0 !important
+                                }
+
+                                .skn-srz4 .left-box {
+                                    display: table-cell;
+                                    letter-spacing: .2px;
+                                    vertical-align: top
+                                }
+
+                                .skn-srz4 .firstsection,
+                                .skn-srz4 .left-box .section:first-child,
+                                .skn-srz4 .right-box .section:first-child {
+                                    padding-top: 0 !important
+                                }
+
+                                /*common css*/
+                                .skn-srz4 .txt-bold {
+                                    font-weight: bold
+                                }
+
+                                .skn-srz4 .txtItl {
+                                    font-style: italic
+                                }
+
+                                .skn-srz4 .paddedline {
+                                    display: block
+                                }
+
+                                .skn-srz4 .mt5 {
+                                    margin-top: 5px
+                                }
+
+                                .skn-srz4 .word-break {
+                                    word-wrap: break-word
+                                }
+
+                                .skn-srz4 .ratingWrapper {
+                                    text-align: right;
+                                    position: relative
+                                }
+
+                                .skn-srz4 .ratingWrapper .noLnht {
+                                    line-height: 0
+                                }
+
+                                .skn-srz4 svg {
+                                    height: 13px
+                                }
+
+                                /*Personal details section*/
+                                .skn-srz4 .details-wrap {
+                                    margin-bottom: 5px
+                                }
+
+                                .skn-srz4 .details-wrap:last-child {
+                                    margin-bottom: 0
+                                }
+
+                                .skn-srz4>div:not(.topsection) {
+                                    min-height: inherit
+                                }
+
+                                /* Issues fix for builder page */
+                                .skn-srz4 .ratingWrapper .default-fill {
+                                    fill: #373d48
+                                }
+
+
+                                /* Only for firefox */
+                                @-moz-document url-prefix() {
+                                    .skn-srz4 .parentContainer {
+                                        height: 1px
+                                    }
+                                }
+
+                                /* For dates fix */
+                                .skn-srz4 .left-box .hidedates {
+                                    visibility: hidden;
+                                    position: static !important;
+                                    display: block;
+                                    float: left
+                                }
+
+                                .skn-srz4 .right-box .hidedates {
+                                    display: none
+                                }
+
+                                .skn-srz4 .paragraph.datespara:after {
+                                    content: '';
+                                    display: table;
+                                    clear: both
+                                }
+
+                                /*PICT*/
+                                .skn-srz4 .prflPic,
+                                .skn-srz4 .prflPic>div {
+                                    width: 154px;
+                                    height: 154px
+                                }
+
+                                .skn-srz4 .prflPic img {
+                                    min-width: 100%;
+                                    max-width: 100%;
+                                    min-height: 100%;
+                                    max-height: 100%;
+                                    object-fit: cover
+                                }
+
+                                .skn-srz4 .multi-hilt .paddedline {
+                                    display: table-cell;
+                                    width: 50%;
+                                    padding-left: 7px
+                                }
+
+                                .skn-srz4 .multi-hilt .paddedline:first-child {
+                                    padding-left: 0;
+                                    padding-right: 7px
+                                }
+
+                                .skn-srz4 .multi-hilt ul li:before {
+                                    display: none
+                                }
+
+                                .skn-srz4 .multi-hilt .singlecolumn {
+                                    display: table;
+                                    table-layout: fixed;
+                                    width: 100%
+                                }
+
+                                .skn-srz4 .right-box .multi-hilt .paddedline {
+                                    display: block;
+                                    width: 100%;
+                                    padding: 0
+                                }
+
+                                .skn-srz4 .multi-hilt ul li:last-child {
+                                    margin-bottom: 0
+                                }
+
+                                .skn-srz4 .multi-hilt ul li,
+                                .skn-srz4 .right-box .multi-hilt .skill:first-child ul li:last-child {
+                                    margin-bottom: 5px
+                                }
+
+                                /* For PDF HILT */
+                                .skn-srz4.for-pdf {
+                                    min-height: auto
+                                }
+
+                                .skn-srz4.for-pdf .parentContainer {
+                                    display: block
+                                }
+
+                                .skn-srz4.for-pdf .left-box {
+                                    display: block;
+                                    float: left;
+                                    width: calc(100% - 214px);
+                                    padding-top: 0;
+                                    padding-bottom: 0
+                                }
+
+                                .skn-srz4.for-pdf .right-box {
+                                    display: block;
+                                    float: right;
+                                    background: transparent;
+                                    padding-top: 0;
+                                    padding-bottom: 0
+                                }
+
+                                .skn-srz4.for-pdf .left-box .paragraph.multi-hilt .singlecolumn {
+                                    display: block;
+                                }
+
+                                .skn-srz4.for-pdf .left-box .paragraph.multi-hilt .singlecolumn .paddedline {
+                                    display: block;
+                                    width: 48%
+                                }
+
+                                .skn-srz4.for-pdf .left-box .paragraph.multi-hilt .singlecolumn:after {
+                                    content: '';
+                                    clear: both;
+                                    display: table
+                                }
+
+                                .skn-srz4.for-pdf .left-box .paragraph.multi-hilt .singlecolumn .paddedline:first-child {
+                                    float: left;
+                                    padding-right: 0
+                                }
+
+                                .skn-srz4.for-pdf .left-box .paragraph.multi-hilt .singlecolumn .paddedline:last-child {
+                                    float: right;
+                                    padding-left: 0
+                                }
+
+                                /* Languages Starts Here */
+                                .skn-srz4 .txt-bold {
+                                    font-weight: 700
+                                }
+
+                                .skn-srz4 .beforecolonspace {
+                                    display: none !important
+                                }
+
+                                .skn-srz4.show-colon-space .beforecolonspace {
+                                    display: inline !important
+                                }
+
+                                /*Static CSS - common wider box*/
+                                .skn-srz4 .common-lngg-skli {
+                                    padding-left: 0px;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between
+                                }
+
+                                .skn-srz4 .common-lngg-skli .singlecolumn {
+                                    display: none;
+                                    margin: 0 !important
+                                }
+
+                                .skn-srz4 .common-lngg-skli.infobarsec .infobarpara,
+                                .skn-srz4 .common-lngg-skli.infotilesec .infotilepara {
+                                    display: block
+                                }
+
+                                .skn-srz4 .common-lngg-skli .rating-level {
+                                    width: 15%;
+                                    text-align: right
+                                }
+
+                                .skn-srz4 .common-lngg-skli .sliced-rect .sliced-rect-tile {
+                                    height: 100%;
+                                    background-color: #d5d6d6;
+                                    float: left;
+                                    margin-right: 3px
+                                }
+
+                                .skn-srz4 .common-lngg-skli .sliced-rect .sliced-rect-tile:last-child {
+                                    margin-right: 0
+                                }
+
+                                .skn-srz4 .common-lngg-skli .sliced-rect,
+                                .skn-srz4 .common-lngg-skli .rating-bar {
+                                    margin-top: 3px
+                                }
+
+                                .skn-srz4 .common-lngg-skli .lang-space {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+                                    word-break: break-word;
+                                    align-items: flex-end
+                                }
+
+                                .skn-srz4 .common-lngg-skli .paragraph {
+                                    width: 100%
+                                }
+
+                                .skn-srz4 .common-lngg-skli .paragraph:nth-last-child(1) {
+                                    margin-bottom: 0
+                                }
+
+                                .skn-srz4 .common-lngg-skli .nativeLangPara.paragraph {
+                                    width: 100% !important;
+                                    max-width: 100%
+                                }
+
+                                .skn-srz4 .common-lngg-skli .field .colon {
+                                    display: none !important
+                                }
+
+                                .skn-srz4 .common-lngg-skli.infobarsec .field:first-child .colon,
+                                .skn-srz4 .common-lngg-skli.infotilesec .field:first-child .colon,
+                                .skn-srz4 .common-lngg-skli .field *,
+                                .skn-srz4 .common-lngg-skli .nativeLangPara .field {
+                                    display: inline
+                                }
+
+                                .skn-srz4 .common-lngg-skli .sliced-rect,
+                                .skn-srz4 .common-lngg-skli .inner-rating {
+                                    height: 7px
+                                }
+
+                                .skn-srz4 .hide-colon .colon {
+                                    display: none !important
+                                }
+
+                                /*Static CSS - only Bar wider box*/
+                                .skn-srz4 .common-lngg-skli.hide-bar .rating-bar,
+                                .skn-srz4 .common-lngg-skli.hide-bar .sliced-rect,
+                                .skn-srz4 .common-lngg-skli.hide-only-bar .rating-bar,
+                                .skn-srz4 .common-lngg-skli.hide-only-bar.infotilesec .sliced-rect,
+                                .skn-srz4 .common-lngg-skli.hide-bar .circle-parent,
+                                .skn-srz4 .common-lngg-skli.hide-only-bar .circle-parent {
+                                    display: none !important
+                                }
+
+                                .skn-srz4 .common-lngg-skli .rating-bar {
+                                    background: #d5d6d6;
+                                    page-break-inside: avoid
+                                }
+
+                                .skn-srz4 .common-lngg-skli .inner-rating,
+                                .skn-srz4 .common-lngg-skli .sliced-rect .sliced-rect-tile.ratvfill {
+                                    background: #002e58
+                                }
+
+                                .skn-srz4 .common-lngg-skli.hide-bar .nativeLangPara .fielditem-ratt {
+                                    display: inline !important
+                                }
+
+                                .skn-srzsrz45 .common-lngg-skli.hide-bar .fielditem-ratt,
+                                .skn-srz4 .common-lngg-skli.hide-bar .brkt {
+                                    display: none !important
+                                }
+
+                                /*Static CSS - narrow box common*/
+                                .skn-srz4 .right-box .common-lngg-skli {
+                                    padding-left: 0
+                                }
+
+                                .skn-srz4 .right-box .common-lngg-skli .heading {
+                                    margin-left: 0;
+                                    width: 100%
+                                }
+
+                                .skn-srz4 .right-box .common-lngg-skli .paragraph {
+                                    width: 100%
+                                }
+
+                                .skn-srz4 .right-box .common-lngg-skli .paragraph:nth-last-child(1) {
+                                    margin-bottom: 0;
+                                    padding-bottom: 0
+                                }
+
+                                /* Languages Ends Here */
+
+                                .skn-srz4 .circle {
+                                    height: 10px;
+                                    width: 10px;
+                                    margin-right: 2px;
+                                    background: #d5d6d6
+                                }
+
+                                .skn-srz4 .circle-parent {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: end
+                                }
+
+                                .skn-srz4 .left-box .infocirclesec .paragraph {
+                                    width: 100%;
+                                    display: inline-block;
+                                    vertical-align: top
+                                }
+
+                                .skn-srz4 .left-box .infocirclesec .paragraph .singlecolumn span {
+                                    display: inline
+                                }
+
+                                .skn-srz4 .skli-sec.infocirclesec .infocirclepara .field *,
+                                .skn-srz4 .lang-sec.infocirclesec .infocirclepara .field * {
+                                    display: inline
+                                }
+
+                                .skn-srz4 .skli-sec.infocirclesec .infocirclepara,
+                                .skn-srz4 .lang-sec.infocirclesec .infocirclepara {
+                                    display: block
+                                }
+
+                                .skn-srz4 .hide-bar .fielditem-ratt {
+                                    display: none !important
+                                }
+
+                                .skn-srz4 .nativeLangPara .lang-space .colon {
+                                    display: inline !important
+                                }
+
+                                .skn-srz4 .infobarpara .ratingWrapper,
+                                .skn-srz4 .infotilepara .ratingWrapper {
+                                    float: right;
+                                    width: 48%;
+                                    text-align: right
+                                }
+
+                                .skn-srz4 .nativeLangPara .ratingWrapper {
+                                    display: inline;
+                                    float: none
+                                }
+
+                                .skn-srz4 .nativeLangPara .rating-heading span,
+                                .skn-srz4 .nativeLangPara .lang-space .colon {
+                                    font-weight: bold
+                                }
+
+                                .skn-srz4 .lang-space .colon {
+                                    display: none
+                                }
+
+                                .skn-srz4 .common-lngg-skli.hide-colon .lang-space .colon {
+                                    display: none !important
+                                }
+
+                                /* GRYR */
+                                .skn-srz4 .displayNoneThisField {
+                                    display: none
+                                }
+
+                                /* Keep this class always at bottom */
+
+                                /*Builder css*/
+                                .skn-srz4 .common-lngg-skli .sortable-item {
+                                    width: 100%
+                                }
+
+                                .skn-srz4 .left-box .common-lngg-skli .sortableInner .sortable-item.native-lang {
+                                    width: 100%
+                                }
+
+                                .skn-srz4 .common-lngg-skli .sortableInner .sortable-item:nth-last-child(1),
+                                .skn-srz4 .right-box .common-lngg-skli .sortableInner>.sortable-item:nth-last-child(1) .paragraph {
+                                    margin-bottom: 0 !important
+                                }
+
+                                .skn-srz4 .common-lngg-skli .sortableInner .sortable-item .nativeLangPara .rating-heading {
+                                    font-weight: bold
+                                }
+
+                                /*PDF Fix*/
+                                .skn-srz4.for-pdf .common-lngg-skli {
+                                    display: block
+                                }
+
+                                .skn-srz4.for-pdf .common-lngg-skli .paragraph:not(.nativeLangPara) .lang-space,
+                                .skn-srz4.for-pdf .common-lngg-skli .circle-parent {
+                                    display: block
+                                }
+
+                                .skn-srz4.for-pdf .common-lngg-skli .circle-parent {
+                                    font-size: 0;
+                                    line-height: 0
+                                }
+
+                                .skn-srz4.for-pdf .common-lngg-skli .circle-parent .circle {
+                                    display: inline-block
+                                }
+
+                                .skn-srz4.for-pdf .common-lngg-skli .paragraph .singlecolumn .fieldgroup-0:after {
+                                    content: '';
+                                    display: table;
+                                    clear: both;
+                                    line-height: 0;
+                                    font-size: 0
+                                }
+
+                                .skn-srz4.for-pdf .common-lngg-skli .sliced-rect,
+                                .skn-srz4 .common-lngg-skli .rating-bar {
+                                    page-break-inside: avoid
+                                }
+
+                                .skn-srz4.for-pdf .common-lngg-skli .paragraph:not(.nativeLangPara) .infobarpara .ratingWrapper,
+                                .skn-srz4.for-pdf .common-lngg-skli .paragraph:not(.nativeLangPara) .infotilepara .ratingWrapper {
+                                    float: none;
+                                    margin-left: 52%
+                                }
+                            </style>
+                            <style type="text/css" id="dynamic"
+                                data-time="Tue Mar 19 2024 14:31:05 GMT+0530 (India Standard Time)">
+                                .skn-srz4,
+                                .skn-srz4 table {
+                                    line-height: 20px
+                                }
+
+                                .skn-srz4.pagesize {
+                                    width: 684px
+                                }
+
+                                .skn-srz4.fontface {
+                                    font-family: Century Gothic
+                                }
+
+                                .skn-srz4.fontsize {
+                                    font-size: 13px
+                                }
+
+                                .skn-srz4 .section {
+                                    padding-top: 23px
+                                }
+
+                                .skn-srz4 .right-box .section:after {
+                                    padding-bottom: 12px
+                                }
+
+                                .skn-srz4 .paragraph {
+                                    margin-top: 12px
+                                }
+
+                                .skn-srz4 .singlecolumn,
+                                .skn-srz4 .maincolumn {
+                                    word-wrap: break-word
+                                }
+
+                                .skn-srz4 .left-box .singlecolumn,
+                                .skn-srz4 .left-box maincolumn {
+                                    margin-left: 0px
+                                }
+
+                                .skn-srz4 table.skills td {
+                                    padding-top: 5px
+                                }
+
+                                .skn-srz4 .jobtitle,
+                                .skn-srz4 .degree,
+                                .skn-srz4 .programline {
+                                    font-size: 16px
+                                }
+
+                                .skn-srz4 .name {
+                                    font-size: 41px;
+                                    line-height: 45px
+                                }
+
+                                .skn-srz4 .topsection {
+                                    background-color: #394d6b
+                                }
+
+                                .skn-srz4 .heading {
+                                    line-height: 25px
+                                }
+
+                                .skn-srz4 .sectiontitle {
+                                    font-size: 19px;
+                                    color: #394d6b
+                                }
+
+                                .skn-srz4 .right-box {
+                                    width: 177px
+                                }
+
+                                .skn-srz4 .left-box .paragraph .singlecolumn {
+                                    margin-left: 104px
+                                }
+
+                                .skn-srz4 .left-box .paddedline.date-content {
+                                    left: -104px
+                                }
+
+                                .skn-srz4 .resumeTitle {
+                                    font-size: 20px
+                                }
+
+                                .skn-srz4 .ratingWrapper .default-fill {
+                                    fill: #394d6b
+                                }
+
+                                .skn-srz4 .left-box .multi-hilt .singlecolumn {
+                                    width: calc(100% - 104px)
+                                }
+
+                                /*fixes for builder page*/
+                                #displayResume .skn-srz4.document {
+                                    min-height: 792px
+                                }
+
+                                .skn-srz4 .sortable-item .rating-wrapper span {
+                                    top: 0
+                                }
+
+                                .skn-srz4 .left-box>.sortable-item,
+                                .skn-srz4 .right-box>.sortable-item {
+                                    padding-top: 23px
+                                }
+
+                                html.c-rowloc-in.hide-photo .skn-srz4 .right-box .sortable-item.data-PICT+.sortable-item {
+                                    padding-top: 0px !important
+                                }
+
+                                .skn-srz4 .common-lngg-skli {
+                                    padding-left: 104px
+                                }
+
+                                .skn-srz4 .common-lngg-skli .heading {
+                                    margin-left: -104px;
+                                    width: calc(100% + 104px)
+                                }
+
+                                .skn-srz4 .common-lngg-skli .inner-rating,
+                                .skn-srz4 .common-lngg-skli .sliced-rect .sliced-rect-tile.ratvfill {
+                                    background: #394d6b
+                                }
+
+                                /*Circle Pattern*/
+                                .skn-srz4 .circle {
+                                    border-radius: 100%;
+                                    display: block;
+                                    height: 11px;
+                                    width: 11px;
+                                    box-sizing: border-box
+                                }
+
+                                /*Color Change*/
+                                .skn-srz4 .circle-parent .ratvfill {
+                                    background: #394d6b
+                                }
+
+                                .skn-srz4 .left-box .common-lngg-skli .sortableInner .sortable-item {
+                                    margin-bottom: 5px
+                                }
+
+                                .skn-srz4 .right-box .common-lngg-skli .sortableInner>.sortable-item .paragraph {
+                                    margin-bottom: 5px
+                                }
+
+                                .skn-srz4 .common-lngg-skli .doc-item {
+                                    width: 100%
+                                }
+                            </style>
+                        </div>
+                        <div class="document doc-root fontsize fontface vmargins hmargins   pagesize skn-srz4 SRZ4  ZTY   "
+                            data-color="#394d6b">
+                            <div id="CONTAINER_PARENT_0" class="topsection">
+                                <div id="CONTAINER_0" class="">
+                                    <div data-react-beautiful-dnd-draggable="6"
+                                        class="sortable-item section-container SortableItem-sibling data-NAME">
+                                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"><button
+                                                class="btn btn-icon-tertiary btn-icon-edit" type="button"
+                                                title="View / Edit"><i class="icon-edit"></i></button></div>
+                                        <div id="SECTION_NAME6a34659e-87a6-4e70-b1bf-a344c4585dbe"
+                                            class="section notdraggable SECTION_NAME     " data-section-cd="NAME">
+                                            <div class=" doc-item">
+                                                <div class="">
+                                                    <div class="">
+                                                        <div id="PARAGRAPH_NAME_561044b3-22c5-35fc-e5ba-4c50eb9b6f18"
+                                                            class="paragraph PARAGRAPH_NAME firstparagraph  ">
+                                                            <div>
+                                                                <div class="name word-break">
+                                                                    <span id="FIELD_FNAM">SHRADHDHA KULDEEPBHAI</span>
+                                                                    <span class="word-break"
+                                                                        id="FIELD_LNAM">KORADIYA</span>
+                                                                </div>
+                                                                <div class="resumeTitle placeholder-text"
+                                                                    id="FIELD_DCTL"></div>
+                                                            </div>
+                                                            <div class="doc-overlay para-overlay"
+                                                                style="left:-2px; right: -2px;"><span
+                                                                    class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
+                                                <span>&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="CONTAINER_PARENT_1" class="parentContainer">
+                                <div id="CONTAINER_1" class="left-box">
+                                    <div data-react-beautiful-dnd-draggable="7"
+                                        class="sortable-item section-container SortableItem-sibling data-SUMM">
+                                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"><button
+                                                class="btn btn-icon-tertiary btn-icon-edit" type="button"
+                                                title="View / Edit"><i class="icon-edit"></i></button></div>
+                                        <div id="SECTION_SUMM25f31600-7752-4bf2-96dc-a4ea4b395039"
+                                            class="section summary notdraggable SECTION_SUMM     "
+                                            data-section-cd="SUMM">
+                                            <div class=" doc-item">
+                                                <div class="">
+                                                    <div class="">
+                                                        <div id="PARAGRAPH_SUMM_e2bef834-c137-c1ee-0c05-fd3f8b97203e"
+                                                            class="paragraph PARAGRAPH_SUMM firstparagraph  ">
+                                                            <div class="clearfix doc-item">
+                                                                <div class="singlecolumn" id="FIELD_FRFM">
+                                                                    <p>I am looking for such a job, which can give me
+                                                                        the platform to apply my knowledge, skills and
+                                                                        abilities in the growth of both, firm and
+                                                                        myself.....</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="doc-overlay para-overlay"
+                                                                style="left:-2px; right: -2px;"><span
+                                                                    class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
+                                                <span>&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                    <div data-react-beautiful-dnd-draggable="7"
+                                        class="sortable-item section-container SortableItem-sibling data-EDUC">
+                                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"><button
+                                                class="btn btn-icon-tertiary btn-icon-edit" type="button"
+                                                title="View / Edit"><i class="icon-edit"></i></button><button
+                                                class="btn  btn-icon-tertiary btn-icon-delete" type="button"
+                                                title="Delete"><i class="icon-delete"
+                                                    title="Delete"></i></button><button type="button"
+                                                class="btn-icon-tertiary btn-icon-move" style="right: -555.4px;"><i
+                                                    class="icon-move" tabindex="0"
+                                                    data-react-beautiful-dnd-drag-handle="7"
+                                                    aria-roledescription="Draggable item. Press space bar to lift"
+                                                    draggable="false" title="Move"></i></button></div>
+                                        <div id="SECTION_EDUC81859db5-0e83-4944-b90c-19e5925837d9"
+                                            class="section education SECTION_EDUC   multi-para has-title  "
+                                            data-section-cd="EDUC">
+                                            <div class=" doc-item">
+                                                <div class="heading">
+                                                    <div class="sectiontitle" id="SECTIONNAME_EDUC">Education<span
+                                                            title="Rename Education section"
+                                                            class="rename-section text-rename">Rename</span></div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="sortableInner">
+                                                        <div class="sortable-item paragraph-container">
+                                                            <div class="document-tool para-tool" style="right: -2px;">
+                                                                <button class="btn btn-icon-tertiary btn-icon-edit"
+                                                                    title="View / Edit"><i
+                                                                        class="icon-edit"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-delete "
+                                                                    title="Delete"><i class="icon-delete"
+                                                                        title="Delete"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-move "
+                                                                    title="Move" style="right: -555px;"><i
+                                                                        class="icon-move"></i></button></div>
+                                                            <div id="PARAGRAPH_EDUC_cac4a842-88e7-f68b-0ef3-5769ded4db79"
+                                                                class="paragraph datespara PARAGRAPH_EDUC firstparagraph  ">
+                                                                <div class="clearfix doc-item">
+
+                                                                    <div class="singlecolumn">
+                                                                        <div class="paddedline date-content">
+                                                                            <span
+                                                                                class="xslt_static_change displayNoneThisField">Expected
+                                                                                in </span><span class="jobdates"
+                                                                                id="FIELD_GRYR" format="%Y-%m"
+                                                                                dependency="GRYR">2018-05</span><span
+                                                                                class="jobdates" id="FIELD_GRST"
+                                                                                format="%Y-%m"></span><span
+                                                                                class="jobdates" id="FIELD_GRED"
+                                                                                format="%Y-%m"></span>
+                                                                        </div>
+                                                                        <span class="paddedline degreeGap txt-bold"
+                                                                            dependency="DGRE|STUY">
+                                                                            <span class="degree"
+                                                                                id="FIELD_DGRE">B.Ed</span><span
+                                                                                class="programline"
+                                                                                id="FIELD_STUY"></span>
+                                                                        </span>
+                                                                        <div class="paddedline txtItl"
+                                                                            dependency="SCIT|SSTA|SCHO">
+                                                                            <span class="companyname"
+                                                                                id="FIELD_SCHO">Maharaja
+                                                                                Krishnakumarsinhji Bhavnagar
+                                                                                University</span><span
+                                                                                dependency="SCHO+SSTA|SCIT"> -
+                                                                            </span><span class="joblocation jobcity"
+                                                                                id="FIELD_SCIT">Bhavnagar,
+                                                                                India</span><span
+                                                                                class="joblocation jobstate"
+                                                                                id="FIELD_SSTA"></span>
+                                                                        </div>
+                                                                        <span id="FIELD_FRFM">
+                                                                            <ul>
+                                                                                <li>Graduation with Distinction:
+                                                                                    <strong>Semester-4</strong></li>
+                                                                                <li>Final Grade: <strong>84.94%</strong>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="doc-overlay para-overlay"
+                                                                    style="left:-2px; right: -2px;"><span
+                                                                        class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sortable-item paragraph-container">
+                                                            <div class="document-tool para-tool" style="right: -2px;">
+                                                                <button class="btn btn-icon-tertiary btn-icon-edit"
+                                                                    title="View / Edit"><i
+                                                                        class="icon-edit"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-delete "
+                                                                    title="Delete"><i class="icon-delete"
+                                                                        title="Delete"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-move "
+                                                                    title="Move" style="right: -555px;"><i
+                                                                        class="icon-move"></i></button></div>
+                                                            <div id="PARAGRAPH_EDUC_b677b0c5-868c-6384-e05a-a138ea6ae6cc"
+                                                                class="paragraph datespara PARAGRAPH_EDUC  ">
+                                                                <div class="clearfix doc-item">
+
+                                                                    <div class="singlecolumn">
+                                                                        <div class="paddedline date-content">
+                                                                            <span
+                                                                                class="xslt_static_change displayNoneThisField">Expected
+                                                                                in </span><span class="jobdates"
+                                                                                id="FIELD_GRYR" format="%Y-%m"
+                                                                                dependency="GRYR">2017-02</span><span
+                                                                                class="jobdates" id="FIELD_GRST"
+                                                                                format="%Y-%m"></span><span
+                                                                                class="jobdates" id="FIELD_GRED"
+                                                                                format="%Y-%m"></span>
+                                                                        </div>
+                                                                        <span class="paddedline degreeGap txt-bold"
+                                                                            dependency="DGRE|STUY">
+                                                                            <span class="degree"
+                                                                                id="FIELD_DGRE">B.Ed</span><span
+                                                                                class="programline"
+                                                                                id="FIELD_STUY"></span>
+                                                                        </span>
+                                                                        <div class="paddedline txtItl"
+                                                                            dependency="SCIT|SSTA|SCHO">
+                                                                            <span class="companyname"
+                                                                                id="FIELD_SCHO">Maharaja
+                                                                                Krishnakumarsinhji Bhavnagar
+                                                                                University</span><span
+                                                                                dependency="SCHO+SSTA|SCIT"> -
+                                                                            </span><span class="joblocation jobcity"
+                                                                                id="FIELD_SCIT">Bhavnagar,
+                                                                                India</span><span
+                                                                                class="joblocation jobstate"
+                                                                                id="FIELD_SSTA"></span>
+                                                                        </div>
+                                                                        <span id="FIELD_FRFM">
+                                                                            <ul>
+                                                                                <li>Graduation with Distinction:
+                                                                                    <strong>Semester - 3</strong></li>
+                                                                                <li>Final Grade: <strong>84%</strong>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="doc-overlay para-overlay"
+                                                                    style="left:-2px; right: -2px;"><span
+                                                                        class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sortable-item paragraph-container">
+                                                            <div class="document-tool para-tool" style="right: -2px;">
+                                                                <button class="btn btn-icon-tertiary btn-icon-edit"
+                                                                    title="View / Edit"><i
+                                                                        class="icon-edit"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-delete "
+                                                                    title="Delete"><i class="icon-delete"
+                                                                        title="Delete"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-move "
+                                                                    title="Move" style="right: -555px;"><i
+                                                                        class="icon-move"></i></button></div>
+                                                            <div id="PARAGRAPH_EDUC_a2f8c6cf-d27b-cdc5-aa2e-95cb43745534"
+                                                                class="paragraph datespara PARAGRAPH_EDUC  ">
+                                                                <div class="clearfix doc-item">
+
+                                                                    <div class="singlecolumn">
+                                                                        <div class="paddedline date-content">
+                                                                            <span
+                                                                                class="xslt_static_change displayNoneThisField">Expected
+                                                                                in </span><span class="jobdates"
+                                                                                id="FIELD_GRYR" format="%Y-%m"
+                                                                                dependency="GRYR">2017-06</span><span
+                                                                                class="jobdates" id="FIELD_GRST"
+                                                                                format="%Y-%m"></span><span
+                                                                                class="jobdates" id="FIELD_GRED"
+                                                                                format="%Y-%m"></span>
+                                                                        </div>
+                                                                        <span class="paddedline degreeGap txt-bold"
+                                                                            dependency="DGRE|STUY">
+                                                                            <span class="degree"
+                                                                                id="FIELD_DGRE">B.Ed</span><span
+                                                                                class="programline"
+                                                                                id="FIELD_STUY"></span>
+                                                                        </span>
+                                                                        <div class="paddedline txtItl"
+                                                                            dependency="SCIT|SSTA|SCHO">
+                                                                            <span class="companyname"
+                                                                                id="FIELD_SCHO">Maharaja
+                                                                                Krishnakumarsinhji Bhavnagar
+                                                                                University</span><span
+                                                                                dependency="SCHO+SSTA|SCIT"> -
+                                                                            </span><span class="joblocation jobcity"
+                                                                                id="FIELD_SCIT">Bhavnagar,
+                                                                                India</span><span
+                                                                                class="joblocation jobstate"
+                                                                                id="FIELD_SSTA"></span>
+                                                                        </div>
+                                                                        <span id="FIELD_FRFM">
+                                                                            <ul>
+                                                                                <li>Graduation with Distinction:
+                                                                                    <strong>Semester - 2</strong></li>
+                                                                                <li>Final Grade: <strong>61.33%</strong>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="doc-overlay para-overlay"
+                                                                    style="left:-2px; right: -2px;"><span
+                                                                        class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sortable-item paragraph-container">
+                                                            <div class="document-tool para-tool" style="right: -2px;">
+                                                                <button class="btn btn-icon-tertiary btn-icon-edit"
+                                                                    title="View / Edit"><i
+                                                                        class="icon-edit"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-delete "
+                                                                    title="Delete"><i class="icon-delete"
+                                                                        title="Delete"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-move "
+                                                                    title="Move" style="right: -555px;"><i
+                                                                        class="icon-move"></i></button></div>
+                                                            <div id="PARAGRAPH_EDUC_e4f19aab-6e42-2370-8d4e-add4bd462fe4"
+                                                                class="paragraph datespara PARAGRAPH_EDUC  ">
+                                                                <div class="clearfix doc-item">
+
+                                                                    <div class="singlecolumn">
+                                                                        <div class="paddedline date-content">
+                                                                            <span
+                                                                                class="xslt_static_change displayNoneThisField">Expected
+                                                                                in </span><span class="jobdates"
+                                                                                id="FIELD_GRYR" format="%Y-%m"
+                                                                                dependency="GRYR">2016-01</span><span
+                                                                                class="jobdates" id="FIELD_GRST"
+                                                                                format="%Y-%m"></span><span
+                                                                                class="jobdates" id="FIELD_GRED"
+                                                                                format="%Y-%m"></span>
+                                                                        </div>
+                                                                        <span class="paddedline degreeGap txt-bold"
+                                                                            dependency="DGRE|STUY">
+                                                                            <span class="degree"
+                                                                                id="FIELD_DGRE">B.Ed</span><span
+                                                                                class="programline"
+                                                                                id="FIELD_STUY"></span>
+                                                                        </span>
+                                                                        <div class="paddedline txtItl"
+                                                                            dependency="SCIT|SSTA|SCHO">
+                                                                            <span class="companyname"
+                                                                                id="FIELD_SCHO">Maharaja
+                                                                                Krishnakumarsinhji Bhavnagar
+                                                                                University</span><span
+                                                                                dependency="SCHO+SSTA|SCIT"> -
+                                                                            </span><span class="joblocation jobcity"
+                                                                                id="FIELD_SCIT">Bhavnagar,
+                                                                                India</span><span
+                                                                                class="joblocation jobstate"
+                                                                                id="FIELD_SSTA"></span>
+                                                                        </div>
+                                                                        <span id="FIELD_FRFM">
+                                                                            <ul>
+                                                                                <li>Graduation with Distinction:
+                                                                                    <strong>Semester - 1</strong></li>
+                                                                                <li>Final Grade: <strong>69.33%</strong>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="doc-overlay para-overlay"
+                                                                    style="left:-2px; right: -2px;"><span
+                                                                        class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sortable-item paragraph-container">
+                                                            <div class="document-tool para-tool" style="right: -2px;">
+                                                                <button class="btn btn-icon-tertiary btn-icon-edit"
+                                                                    title="View / Edit"><i
+                                                                        class="icon-edit"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-delete "
+                                                                    title="Delete"><i class="icon-delete"
+                                                                        title="Delete"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-move "
+                                                                    title="Move" style="right: -555px;"><i
+                                                                        class="icon-move"></i></button></div>
+                                                            <div id="PARAGRAPH_EDUC_99e63495-f789-c246-25a4-30cebb5d1728"
+                                                                class="paragraph datespara PARAGRAPH_EDUC  ">
+                                                                <div class="clearfix doc-item">
+
+                                                                    <div class="singlecolumn">
+                                                                        <div class="paddedline date-content">
+                                                                            <span
+                                                                                class="xslt_static_change displayNoneThisField">Expected
+                                                                                in </span><span class="jobdates"
+                                                                                id="FIELD_GRYR" format="%Y-%m"
+                                                                                dependency="GRYR">2016-06</span><span
+                                                                                class="jobdates" id="FIELD_GRST"
+                                                                                format="%Y-%m"></span><span
+                                                                                class="jobdates" id="FIELD_GRED"
+                                                                                format="%Y-%m"></span>
+                                                                        </div>
+                                                                        <span class="paddedline degreeGap txt-bold"
+                                                                            dependency="DGRE|STUY">
+                                                                            <span class="degree"
+                                                                                id="FIELD_DGRE">B.Com</span><span
+                                                                                class="programline"
+                                                                                id="FIELD_STUY"></span>
+                                                                        </span>
+                                                                        <div class="paddedline txtItl"
+                                                                            dependency="SCIT|SSTA|SCHO">
+                                                                            <span class="companyname"
+                                                                                id="FIELD_SCHO">Maharaja
+                                                                                Krishnakumarsinhji Bhavnagar
+                                                                                University</span><span
+                                                                                dependency="SCHO+SSTA|SCIT"> -
+                                                                            </span><span class="joblocation jobcity"
+                                                                                id="FIELD_SCIT">Bhavnagar,
+                                                                                India</span><span
+                                                                                class="joblocation jobstate"
+                                                                                id="FIELD_SSTA"></span>
+                                                                        </div>
+                                                                        <span id="FIELD_FRFM">
+                                                                            <ul>
+                                                                                <li>Final Grade: <strong>48.66%</strong>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="doc-overlay para-overlay"
+                                                                    style="left:-2px; right: -2px;"><span
+                                                                        class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sortable-item paragraph-container">
+                                                            <div class="document-tool para-tool" style="right: -2px;">
+                                                                <button class="btn btn-icon-tertiary btn-icon-edit"
+                                                                    title="View / Edit"><i
+                                                                        class="icon-edit"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-delete "
+                                                                    title="Delete"><i class="icon-delete"
+                                                                        title="Delete"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-move "
+                                                                    title="Move" style="right: -555px;"><i
+                                                                        class="icon-move"></i></button></div>
+                                                            <div id="PARAGRAPH_EDUC_1cb77ab8-44f6-e0cd-4cca-993e9b607759"
+                                                                class="paragraph datespara PARAGRAPH_EDUC  ">
+                                                                <div class="clearfix doc-item">
+
+                                                                    <div class="singlecolumn">
+                                                                        <div class="paddedline date-content">
+                                                                            <span
+                                                                                class="xslt_static_change displayNoneThisField">Expected
+                                                                                in </span><span class="jobdates"
+                                                                                id="FIELD_GRYR" format="%Y-%m"
+                                                                                dependency="GRYR">2013-03</span><span
+                                                                                class="jobdates" id="FIELD_GRST"
+                                                                                format="%Y-%m"></span><span
+                                                                                class="jobdates" id="FIELD_GRED"
+                                                                                format="%Y-%m"></span>
+                                                                        </div>
+                                                                        <span class="paddedline degreeGap txt-bold"
+                                                                            dependency="DGRE|STUY">
+                                                                            <span class="degree"
+                                                                                id="FIELD_DGRE">HSC(12th)</span><span
+                                                                                class="programline"
+                                                                                id="FIELD_STUY"></span>
+                                                                        </span>
+                                                                        <div class="paddedline txtItl"
+                                                                            dependency="SCIT|SSTA|SCHO">
+                                                                            <span class="companyname"
+                                                                                id="FIELD_SCHO">Gujarat Higer Secondary
+                                                                                Education Bord</span><span
+                                                                                dependency="SCHO+SSTA|SCIT"> -
+                                                                            </span><span class="joblocation jobcity"
+                                                                                id="FIELD_SCIT">Botad, India</span><span
+                                                                                class="joblocation jobstate"
+                                                                                id="FIELD_SSTA"></span>
+                                                                        </div>
+                                                                        <span id="FIELD_FRFM">
+                                                                            <ul>
+                                                                                <li>Final Grade: <strong>56%</strong>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="doc-overlay para-overlay"
+                                                                    style="left:-2px; right: -2px;"><span
+                                                                        class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sortable-item paragraph-container">
+                                                            <div class="document-tool para-tool" style="right: -2px;">
+                                                                <button class="btn btn-icon-tertiary btn-icon-edit"
+                                                                    title="View / Edit"><i
+                                                                        class="icon-edit"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-delete "
+                                                                    title="Delete"><i class="icon-delete"
+                                                                        title="Delete"></i></button><button
+                                                                    type="button"
+                                                                    class="btn btn-icon-tertiary btn-icon-move "
+                                                                    title="Move" style="right: -555px;"><i
+                                                                        class="icon-move"></i></button></div>
+                                                            <div id="PARAGRAPH_EDUC_807d0bdf-2e80-15d8-299d-ce8497c48873"
+                                                                class="paragraph datespara PARAGRAPH_EDUC  ">
+                                                                <div class="clearfix doc-item">
+
+                                                                    <div class="singlecolumn">
+                                                                        <div class="paddedline date-content">
+                                                                            <span
+                                                                                class="xslt_static_change displayNoneThisField">Expected
+                                                                                in </span><span class="jobdates"
+                                                                                id="FIELD_GRYR" format="%Y-%m"
+                                                                                dependency="GRYR">2012-03</span><span
+                                                                                class="jobdates" id="FIELD_GRST"
+                                                                                format="%Y-%m"></span><span
+                                                                                class="jobdates" id="FIELD_GRED"
+                                                                                format="%Y-%m"></span>
+                                                                        </div>
+                                                                        <span class="paddedline degreeGap txt-bold"
+                                                                            dependency="DGRE|STUY">
+                                                                            <span class="degree"
+                                                                                id="FIELD_DGRE">SSC</span><span
+                                                                                class="programline"
+                                                                                id="FIELD_STUY"></span>
+                                                                        </span>
+                                                                        <div class="paddedline txtItl"
+                                                                            dependency="SCIT|SSTA|SCHO">
+                                                                            <span class="companyname"
+                                                                                id="FIELD_SCHO">Gujarat Secondary
+                                                                                Education Bord</span><span
+                                                                                dependency="SCHO+SSTA|SCIT"> -
+                                                                            </span><span class="joblocation jobcity"
+                                                                                id="FIELD_SCIT">Botad, India</span><span
+                                                                                class="joblocation jobstate"
+                                                                                id="FIELD_SSTA"></span>
+                                                                        </div>
+                                                                        <span id="FIELD_FRFM">
+                                                                            <ul>
+                                                                                <li>Final Grade: <strong>55%</strong>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="doc-overlay para-overlay"
+                                                                    style="left:-2px; right: -2px;"><span
+                                                                        class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
+                                                <span>&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                    <div data-react-beautiful-dnd-draggable="7"
+                                        class="sortable-item section-container SortableItem-sibling data-ADDI">
+                                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"><button
+                                                class="btn btn-icon-tertiary btn-icon-edit" type="button"
+                                                title="View / Edit"><i class="icon-edit"></i></button><button
+                                                class="btn  btn-icon-tertiary btn-icon-delete" type="button"
+                                                title="Delete"><i class="icon-delete"
+                                                    title="Delete"></i></button><button type="button"
+                                                class="btn-icon-tertiary btn-icon-move" style="right: -114px;"><i
+                                                    class="icon-move" tabindex="0"
+                                                    data-react-beautiful-dnd-drag-handle="7"
+                                                    aria-roledescription="Draggable item. Press space bar to lift"
+                                                    draggable="false" title="Move"></i></button></div>
+                                        <div id="SECTION_ADDI5299c2c0-f5ff-565e-a044-7224065dbec8"
+                                            class="section SECTION_ADDI    has-title  " data-section-cd="ADDI">
+                                            <div class=" doc-item">
+                                                <div class="heading">
+                                                    <div class="sectiontitle" id="SECTIONNAME_ADDI">Additional
+                                                        Information<span title="Rename Additional Information section"
+                                                            class="rename-section text-rename">Rename</span></div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="">
+                                                        <div id="PARAGRAPH_ADDI_4bdddc27-77e6-2365-ad59-4a0e7ca32c59"
+                                                            class="paragraph PARAGRAPH_ADDI firstparagraph  ">
+                                                            <div class="clearfix doc-item">
+                                                                <div class="singlecolumn" id="FIELD_FRFM">
+                                                                    <p><strong>Height : 5'.40"</strong></p>
+                                                                    <p><strong>Weight : 45Kg</strong></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="doc-overlay para-overlay"
+                                                                style="left:-2px; right: -2px;"><span
+                                                                    class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
+                                                <span>&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="CONTAINER_2" class="right-box">
+                                    <div data-react-beautiful-dnd-draggable="7"
+                                        class="sortable-item section-container SortableItem-sibling data-PICT">
+                                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"></div>
+                                        <div id="SECTION_PICT3e31d343-77bf-efdb-6211-58fa05b33a5d"
+                                            class="section photo notdraggable SECTION_PICT firstsection noparagraph   "
+                                            data-section-cd="PICT">
+                                            <div class=" doc-item">
+                                                <div class="">
+                                                    <div class="">
+                                                        <div id="PARAGRAPH_PICT_acfd43b0-cfac-2cf5-2034-0317a332a32d"
+                                                            class="paragraph PARAGRAPH_PICT firstparagraph placeholder-text ">
+                                                            <div class="clearfix doc-item">
+                                                                <div class="prflPic">
+                                                                    <div id="FIELD_PURL"><img class="chk"
+                                                                            src="https://assets.zety.com/blobimages/zty/rwz/desktop/images/rect-male-no-image-pdet.jpg"
+                                                                            alt="Smiley face"> <a href="javascript:;"
+                                                                            class="btn btn-primary btn-prfl-edit"
+                                                                            title="Edit Photo">Edit Photo</a></div>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                            <div class="doc-overlay para-overlay"
+                                                                style="left:-2px; right: -2px;"><span
+                                                                    class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
+                                                <span>&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                    <div data-react-beautiful-dnd-draggable="7"
+                                        class="sortable-item section-container SortableItem-sibling data-CNTC">
+                                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"><button
+                                                class="btn btn-icon-tertiary btn-icon-edit" type="button"
+                                                title="View / Edit"><i class="icon-edit"></i></button></div>
+                                        <div id="SECTION_CNTCf1b860a4-a5f8-402c-85bb-331889fb1e39"
+                                            class="section SECTION_CNTC notdraggable    has-title  "
+                                            data-section-cd="CNTC">
+                                            <div class=" doc-item">
+                                                <div class="heading">
+                                                    <div class="sectiontitle" id="SECTIONNAME_CNTC">Contact<span
+                                                            title="Rename Contact section"
+                                                            class="rename-section text-rename">Rename</span></div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="">
+                                                        <div id="PARAGRAPH_CNTC_45ec6a80-ed4c-80f4-7896-68d86b73da10"
+                                                            class="paragraph PARAGRAPH_CNTC firstparagraph  ">
+                                                            <div class="clearfix doc-item">
+                                                                <div class="address">
+                                                                    <div class="singlecolumn">
+                                                                        <div dependency="STRT|CITY|STAT|ZIPC|ADDR">
+                                                                            <div class="txt-bold"><span
+                                                                                    class="xslt_static_change">Address
+                                                                                </span></div>
+                                                                            <div id="FIELD_STRT"></div>
+                                                                            <span id="FIELD_CITY"></span>
+                                                                            <span id="FIELD_STAT"></span>
+                                                                            <span id="FIELD_ZIPC"></span>
+                                                                            <span id="FIELD_ADDR">Botad, India
+                                                                                364710</span>
+                                                                        </div>
+                                                                        <div class="txt-bold mt5"
+                                                                            dependency="HPHN|CPHN"><span
+                                                                                class="xslt_static_change">Phone </span>
+                                                                        </div>
+                                                                        <div dependency="HPHN">
+                                                                            <span id="FIELD_HPHN">7567503825</span>
+                                                                        </div>
+
+                                                                        <div class="txt-bold mt5" dependency="EMAI">
+                                                                            <span class="xslt_static_change">E-mail
+                                                                            </span></div>
+                                                                        <div dependency="EMAI" class="word-break">
+                                                                            <span
+                                                                                id="FIELD_EMAI">kuldeepkoradiya786@gmail.com</span>
+                                                                        </div>
+
+
+
+
+
+
+
+
+
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="doc-overlay para-overlay"
+                                                                style="left:-2px; right: -2px;"><span
+                                                                    class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
+                                                <span>&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                    <div data-react-beautiful-dnd-draggable="7"
+                                        class="sortable-item section-container SortableItem-sibling data-PDET">
+                                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"><button
+                                                class="btn btn-icon-tertiary btn-icon-edit" type="button"
+                                                title="View / Edit"><i class="icon-edit"></i></button><button
+                                                class="btn  btn-icon-tertiary btn-icon-delete" type="button"
+                                                title="Delete"><i class="icon-delete"
+                                                    title="Delete"></i></button><button type="button"
+                                                class="btn-icon-tertiary btn-icon-move" style="right: -114px;"><i
+                                                    class="icon-move" tabindex="0"
+                                                    data-react-beautiful-dnd-drag-handle="7"
+                                                    aria-roledescription="Draggable item. Press space bar to lift"
+                                                    draggable="false" title="Move"></i></button></div>
+                                        <div id="SECTION_PDETa4cebc34-503c-7ad0-a3e3-d879f79e73ca"
+                                            class="section SECTION_PDET    has-title  " data-section-cd="PDET">
+                                            <div class=" doc-item">
+                                                <div class="heading">
+                                                    <div class="sectiontitle" id="SECTIONNAME_PDET">Personal
+                                                        Details<span title="Rename Personal Details section"
+                                                            class="rename-section text-rename">Rename</span></div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="">
+                                                        <div id="PARAGRAPH_PDET_b3c53d70-049d-c5b5-5c04-cc448b2a1f8a"
+                                                            class="paragraph PARAGRAPH_PDET firstparagraph  ">
+                                                            <div class="clearfix doc-item">
+                                                                <div class="singlecolumn">
+                                                                    <div dependency="DOB1" class="details-wrap">
+                                                                        <span class="txt-bold"><span
+                                                                                id="DOCDATAINFO_DOB1"
+                                                                                class="xslt_static_change">Date Of Birth
+                                                                                / Age</span><span>: </span></span><span
+                                                                            id="FIELD_DOB1">26/12/1995</span>
+                                                                    </div>
+                                                                    <div dependency="NTLY" class="details-wrap">
+                                                                        <span class="txt-bold"><span
+                                                                                id="DOCDATAINFO_NTLY"
+                                                                                class="xslt_static_change">Nationality</span><span>:
+                                                                            </span></span><span
+                                                                            id="FIELD_NTLY">Indian</span>
+                                                                    </div>
+                                                                    <div dependency="MSTA" class="details-wrap">
+                                                                        <span class="txt-bold"><span
+                                                                                id="DOCDATAINFO_MSTA"
+                                                                                class="xslt_static_change">Marital
+                                                                                Status</span><span>: </span></span><span
+                                                                            id="FIELD_MSTA">Married</span>
+                                                                    </div>
+
+                                                                    <div dependency="GNDR" class="details-wrap">
+                                                                        <span class="txt-bold"><span
+                                                                                id="DOCDATAINFO_GNDR"
+                                                                                class="xslt_static_change">Gender</span><span>:
+                                                                            </span></span><span
+                                                                            id="FIELD_GNDR">FeMale</span>
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="doc-overlay para-overlay"
+                                                                style="left:-2px; right: -2px;"><span
+                                                                    class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
+                                                <span>&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                    <div data-react-beautiful-dnd-draggable="7"
+                                        class="sortable-item section-container SortableItem-sibling data-LANG">
+                                        <div class="document-tool sec-tool" id="editIcons" style="right: -2px;"><button
+                                                class="btn btn-icon-tertiary btn-icon-edit" type="button"
+                                                title="View / Edit"><i class="icon-edit"></i></button><button
+                                                class="btn  btn-icon-tertiary btn-icon-delete" type="button"
+                                                title="Delete"><i class="icon-delete"
+                                                    title="Delete"></i></button><button type="button"
+                                                class="btn-icon-tertiary btn-icon-move" style="right: -114px;"><i
+                                                    class="icon-move" tabindex="0"
+                                                    data-react-beautiful-dnd-drag-handle="7"
+                                                    aria-roledescription="Draggable item. Press space bar to lift"
+                                                    draggable="false" title="Move"></i></button></div>
+                                        <div id="SECTION_LANG661239ec-7876-a155-7052-e7062b868091"
+                                            class="section SECTION_LANG    has-title  " data-section-cd="LANG">
+                                            <div class=" doc-item">
+                                                <div class="heading">
+                                                    <div class="sectiontitle" id="SECTIONNAME_LANG">Languages<span
+                                                            title="Rename Languages section"
+                                                            class="rename-section text-rename">Rename</span></div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="">
+                                                        <div id="PARAGRAPH_LANG_d0d9aec5-241e-d6f1-e308-9fdac91e0905"
+                                                            class="paragraph PARAGRAPH_LANG firstparagraph  ">
+                                                            <div class="clearfix doc-item">
+                                                                <div class="singlecolumn" id="FIELD_FRFM">
+                                                                    <p>Gujarati</p>
+                                                                </div>
+                                                                <div class="ratingWrapper" dependency="RATV">
+                                                                    <div class="noLnht">
+                                                                        <svg viewBox="0 0 500 100"
+                                                                            data-iscl6-viewbox="0 0 600 100"
+                                                                            id="FIELD_RATV" type="count">
+                                                                            <circle cx="50" cy="50" r="40"
+                                                                                fill="#394d6b" stroke-width="4"
+                                                                                class="default-fill"></circle>
+                                                                            <circle cx="150" cy="50" r="40"
+                                                                                fill="#394d6b" stroke-width="4"
+                                                                                class="default-fill"></circle>
+                                                                            <circle cx="250" cy="50" r="40"
+                                                                                fill="#394d6b" stroke-width="4"
+                                                                                class="default-fill"></circle>
+                                                                            <circle cx="350" cy="50" r="40"
+                                                                                fill="#394d6b" stroke-width="4"
+                                                                                class="default-fill"></circle>
+                                                                            <circle cx="450" cy="50" r="40"
+                                                                                fill="#394d6b" stroke-width="4"
+                                                                                class="default-fill"></circle>
+                                                                            <circle cx="550" cy="50" r="40"
+                                                                                fill="#d5d6d6" stroke-width="4">
+                                                                            </circle>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <span class="paddedline field-ratt"
+                                                                        id="FIELD_RATT"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="doc-overlay para-overlay"
+                                                                style="left:-2px; right: -2px;"><span
+                                                                    class="badge badge-primary badge-edit"></span><span>&nbsp;</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="doc-overlay section-overlay" style="left:-2px; right: -2px;">
+                                                <span>&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div id="download_funnel"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
