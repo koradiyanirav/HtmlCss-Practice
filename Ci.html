@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'nude': '#EDCDC2',
+                        'nude-dark': '#E0B5A8',
+                        'bg-dark': '#121212',
+                        'bg-card': '#1A1A1A',
+                        'border-light': '#2A2A2A',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .palette {
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .product-card {
+            transition: all 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .remove-btn {
+            transition: all 0.2s ease;
+        }
+
+        .remove-btn:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body class=" select-none">
+    <div class="container mx-auto px-4 py-8">
+    </div>
+    <div id="comparePopup"
+        class="fixed bottom-0 left-0 right-0 bg-bg-dark transform translate-y-full transition-transform duration-300 ease-in-out">
+        <div id="togglePopup"
+            class="absolute top-0 left-0 transform -translate-x-[0%] -translate-y-full bg-black text-white px-6 py-3 rounded-t-xl cursor-pointer text-center flex gap-4 justify-center items-center">
+            <svg id="toggleIcon"
+                class="inline-block w-4 h-[10px] transform rotate-180 transition-transform duration-300" width="20"
+                height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="transition-transform duration-300">
+                <path d="M19 10L10 1L1 10" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+            <span id="toggleText" class="text-white uppercase font-bold text-sm"></span>
+        </div>
+        <div id="" class="p-10 max-[320px]:px-4 flex gap-[18px] flex-col">
+            <div class="flex flex-col md:flex-row gap-[15px] items-start md:items-center justify-between">
+                <div class="flex flex-col">
+                    <div
+                        class="uppercase text-3xl md:text-4xl font-extrabold leading-tight flex items-baseline gap-3 tracking-tight text-white min-[320px]:flex-col md:flex-row">
+                        <span>Compare products</span> <span class="font-semibold text-xl md:text-2xl">(3 OF
+                            6)</span>
+                    </div>
+                    <div class="font-normal text-sm leading-6 mt2 text-gray-400">You must select at least <span
+                            class="font-semibold text-white">2
+                            products</span> to
+                        compare</div>
+                </div>
+                <div class="flex items-center gap-6 max-[640px]:hidden">
+                    <div class="text-sm font-medium text-white border-b">
+                        Clear All</div>
+                    <button
+                        class="px-6 py-3 md:px-8 md:py-4 bg-nude font-bold text-sm text-black rounded-lg hover:bg-nude-dark transition-all duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-nude-dark focus:ring-offset-2 focus:ring-offset-bg-dark">Compare
+                        Products</button>
+                </div>
+            </div>
+            <div
+                class="w-full grid grid-cols-2 max-[320px]:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 md:gap-6 max-[320px]:h-full max-[320px]:max-h-[168px] max-[320px]:overflow-y-auto max-[320px]:p-[20px] md:p-6 md:overflow-y-auto md:overflow-x-hidden md:max-h-[168px] lg:max-h-full sm:overflow-y-auto sm:max-h-[168px] sm:overflow-x-hidden sm:p-6 max-[640px]:p-6 max-[640px]:max-h-[168px] max-[640px]:overflow-y-auto max-[640px]:overflow-x-hidden">
+                <div
+                    class="p-[14px] flex gap-[10px] border border-[#EDCDC2] border-solid rounded-[10px] relative justify-center items-center">
+                    <div class="flex flex-col gap-[15px] items-center">
+                        <img src="assest/Nudestix_DotCom_Picante_Packshot.jpeg" alt="Nudestix_DotCom_Picante_Packshot"
+                            class="h-44 w-[158px]">
+                        <div class="text-white text-sm leading-[17.05px] font-semibold uppercase">Nudies Blush Stick
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[#EDCDC2] p-[9px] rounded-full flex items-center absolute top-[-19px] right-[-13px] text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 6l-12 12" />
+                            <path d="M6 6l12 12" />
+                        </svg>
+                    </div>
+                </div>
+                <div
+                    class="p-[14px] flex gap-[10px] border border-[#EDCDC2] border-solid rounded-[10px] relative justify-center items-center">
+                    <div class="flex flex-col gap-[15px] items-center">
+                        <img src="assest/Nudestix-DotCom-BubblyBebe.jpeg" alt="Nudestix_DotCom_Picante_Packshot"
+                            class="h-44 w-[158px]">
+                        <div class="text-white text-sm leading-[17.05px] font-semibold">NUDIES GLOW</div>
+                    </div>
+                    <div
+                        class="bg-[#EDCDC2] p-[9px] rounded-full flex items-center absolute top-[-19px] right-[-13px] text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 6l-12 12" />
+                            <path d="M6 6l12 12" />
+                        </svg>
+                    </div>
+                </div>
+                <div
+                    class="p-[14px] flex gap-[10px] border border-[#EDCDC2] border-solid rounded-[10px] relative justify-center items-center">
+                    <div class="flex flex-col gap-[15px] items-center">
+                        <img src="assest/Nudestix-Nudies-Matte-Glow-Core-GLOBAL-Magenta-Magic.jpg" alt=""
+                            class="h-44 w-[158px]">
+                        <div class="text-white text-sm leading-[17.05px] font-semibold">NUDIES MATTE + GLOW CORE</div>
+                    </div>
+                    <div
+                        class="bg-[#EDCDC2] p-[9px] rounded-full flex items-center absolute top-[-19px] right-[-13px] text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 6l-12 12" />
+                            <path d="M6 6l12 12" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="p-[14px] flex gap-[10px] border border-[#EDCDC2] border-dashed rounded-[10px] ">
+                    <div class="flex flex-col gap-[15px] items-center">
+                    </div>
+                </div>
+                <div class="p-[14px] flex gap-[10px] border border-[#EDCDC2] border-dashed rounded-[10px] ">
+                    <div class="flex flex-col gap-[15px] w-full h-full items-center">
+                    </div>
+                </div>
+                <div
+                    class="p-[14px] flex border border-[#EDCDC2] border- rounded-[10px] sm:p-5 items-center justify-center text-gray-400 text-sm uppercase cursor-pointer group">
+                    <span class="text-white text-center uppercase">
+                        Select a Product to compare
+                    </span>
+                </div>
+            </div>
+            <div class="flex items-center justify-center w-full max-[640px]:hidden max-[767px]:hidden">
+                <button
+                    class="w-full px-6 py-3 md:px-8 md:py-4 bg-nude font-bold text-sm text-black rounded-lg hover:bg-nude-dark transition-all duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-nude-dark focus:ring-offset-2 focus:ring-offset-bg-dark">Compare
+                    Products</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const comparePopup = document.getElementById('comparePopup');
+        const togglePopup = document.getElementById('togglePopup');
+        const toggleText = document.getElementById('toggleText');
+        const toggleIcon = document.getElementById('toggleIcon');
+        let isPopupVisible = false;
+
+        togglePopup.addEventListener('click', () => {
+            isPopupVisible = !isPopupVisible;
+            comparePopup.style.transform = isPopupVisible ? 'translateY(0)' : 'translateY(100%)';
+            toggleText.textContent = isPopupVisible ? '' : 'View your palette';
+            toggleIcon.style.transform = isPopupVisible ? 'rotate(180deg)' : 'rotate(0deg)';
+        });
+    });
+</script>
+
+</html>

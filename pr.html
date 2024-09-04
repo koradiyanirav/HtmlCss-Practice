@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show/Hide Palette</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="flex flex-col justify-end items-center ">
+    <button id="toggleButton" class="mb-5 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">
+        Show Palette
+    </button>
+    <div id="palette"
+        class="fixed bottom-0 left-0 w-full bg-gray-800 text-white p-5 transform translate-y-full transition-transform duration-300">
+        <!-- Palette content goes here -->
+        <p>This is the palette content.</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const palette = document.getElementById('palette');
+            const toggleButton = document.getElementById('toggleButton');
+
+            toggleButton.addEventListener('click', () => {
+                palette.classList.toggle('translate-y-full');
+                palette.classList.toggle('translate-y-0');
+                toggleButton.textContent = palette.classList.contains('translate-y-full') ? 'Show Palette' : 'Hide Palette';
+            });
+        });
+    </script>
+</body>
+
+</html>

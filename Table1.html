@@ -3,47 +3,35 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Table.jpg" type="image/x-icon">
-    <title>Table2</title>
-    <style>
-        table{
-            height: 300px;
-            width: 500px;
-        }
-
-        table,tr,td{
-            border: 1px solid green;
-            border-collapse: collapse;
-        }
-    </style>
+    <title>Document</title>
 </head>
+<style>
+    .demo-wrap {
+        position: relative;
+    }
+
+    .demo-bg {
+        opacity: 0.2;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .demo-content {
+        position: relative;
+    }
+</style>
 
 <body>
-    <table>
-        <tr>
-            <td></td>
-            <td></td>
-            <td rowspan="3"></td>
-            <td colspan="2" rowspan="2"></td>
-        </tr>
-        <tr>
-            <td rowspan="2"></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td rowspan="2"></td>
-            <td rowspan="2"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-
+    <div class="demo-wrap">
+        <img class="demo-bg" src="pro-artist-bg.jpeg" alt="">
+        <div class="demo-content">
+            <h1>Hello World!</h1>
+        </div>
+    </div>
 </body>
 
 </html>

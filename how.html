@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>google</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-         <h2>Mozilla Firefox</h2>
-        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
-        
+
+<body class="bg-gray-100 p-10">
+
+    <!-- Table Container -->
+    <div class="overflow-x-auto">
+        <table class="min-w-full bg-white rounded-lg shadow-md">
+            <!-- Table Header -->
+            <thead>
+                <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                    <th class="py-3 px-6 text-left">Column 1</th>
+                    <th class="py-3 px-6 text-left">Column 2</th>
+                    <th class="py-3 px-6 text-left">Column 3</th>
+                    <th class="py-3 px-6 text-left">Column 4</th>
+                </tr>
+            </thead>
+            <!-- Table Body -->
+            <tbody class="text-gray-600 text-sm font-light">
+                <tr class="border-b border-gray-200 hover:bg-gray-100">
+                    <td class="py-3 px-6 text-left">Data 1</td>
+                    <td class="py-3 px-6 text-left">Data 2</td>
+                    <td class="py-3 px-6 text-left">Data 3</td>
+                    <td class="py-3 px-6 text-left">Data 4</td>
+                </tr>
+                <tr class="border-b border-gray-200 hover:bg-gray-100">
+                    <td class="py-3 px-6 text-left">Data 5</td>
+                    <td class="py-3 px-6 text-left">Data 6</td>
+                    <td class="py-3 px-6 text-left">Data 7</td>
+                    <td class="py-3 px-6 text-left">Data 8</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+
 </body>
+
 </html>

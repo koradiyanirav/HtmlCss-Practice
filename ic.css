@@ -1,0 +1,9490 @@
+/* Frame 3502 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+
+position: absolute;
+width: 1618px;
+height: 1073px;
+left: 0px;
+top: calc(50% - 1073px/2 - 50px);
+
+
+
+/* Frame 3505 */
+
+width: 1542px;
+height: 1106.15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3488 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px 30px 0px 0px;
+
+position: absolute;
+width: 1560px;
+height: 515px;
+left: 0px;
+top: 0px;
+
+background: #FDF9F8;
+border-bottom: 1px solid #D7D7D7;
+
+
+/* Frame 3492 */
+
+width: 270px;
+height: 444px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* COMPARE PRODUCTS */
+
+position: absolute;
+width: 193px;
+height: 86px;
+left: calc(50% - 193px/2 + 9.26px);
+top: calc(50% - 86px/2 + 35.5px);
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 119%;
+/* or 43px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 10px;
+gap: 28px;
+isolation: isolate;
+
+width: 315px;
+height: 515px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 195 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px 0px 0px;
+gap: 10px;
+
+width: 283px;
+height: 340px;
+
+background: #F4F0E7;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 7 */
+
+width: 311.71px;
+height: 284px;
+
+background: url(Nudestix_DotCom_Picante_Packshot_2000x2000-1.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* heart-svgrepo-com 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 30px;
+height: 30.7px;
+right: 4px;
+top: 66px;
+
+background: #FFFFFF;
+border: 1px solid #545454;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Group */
+
+position: absolute;
+left: 29.93%;
+right: 29.93%;
+top: 29.03%;
+bottom: 31.43%;
+
+
+
+/* Active */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+left: 30%;
+right: 30%;
+top: 30.38%;
+bottom: 32.59%;
+
+/* White */
+background: #FFFFFF;
+/* DARK 100 */
+border: 1.2px solid #1A1A1A;
+
+
+/* Group 1 */
+
+position: absolute;
+left: 29.93%;
+right: 29.93%;
+top: 29.03%;
+bottom: 31.43%;
+
+
+
+/* Union */
+
+position: absolute;
+left: 30%;
+right: 29.93%;
+top: 29.03%;
+bottom: 31.43%;
+
+border: 1.4px solid #858585;
+
+
+/* Vector */
+
+position: absolute;
+left: 30%;
+right: 13.06%;
+top: 29.03%;
+bottom: 70.97%;
+
+background: #000000;
+transform: matrix(0.7, 0.71, -0.7, 0.71, 0, 0);
+
+
+/* Union */
+
+position: absolute;
+left: 70%;
+right: -10.07%;
+top: 29.03%;
+bottom: 31.43%;
+
+border: 1.4px solid #858585;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 70%;
+right: -26.94%;
+top: 29.03%;
+bottom: 70.97%;
+
+background: #000000;
+transform: matrix(-0.7, 0.71, 0.7, 0.71, 0, 0);
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 295px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 623 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 248 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 17px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Nudies blush stick */
+
+width: 295px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 8 people have added this product to their cart today */
+
+display: none;
+width: 241px;
+height: 34px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* MATTE BLUSH STICK FOR CHEEKS + EYES ... */
+
+display: none;
+width: 293px;
+height: 16px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* DARK 70 */
+color: rgba(26, 26, 26, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3419 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 2px;
+
+display: none;
+width: 286px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 9px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* DARK 100 */
+border: 1px solid #1A1A1A;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #B86750;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #E5AF82;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #5B2F15;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3433 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #AF8056;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3434 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #944938;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3435 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #D6789A;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3436 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #943854;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3437 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #B54B5E;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3438 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #E26458;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3439 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #FA4415;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 25 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 61px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $43 */
+
+width: 32px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 23 */
+
+display: none;
+width: 28px;
+height: 17px;
+
+opacity: 0.4;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $72 */
+
+position: absolute;
+width: 24px;
+height: 17px;
+left: 2px;
+top: 73.76px;
+
+/* Desktop / Body Small Uppercase */
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-transform: uppercase;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+
+/* Vector 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 0px;
+top: 82.76px;
+
+/* DARK 100 */
+border: 1px solid #1A1A1A;
+
+
+/* Shade Name */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+display: none;
+width: 240px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 3416 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 49px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Shade: */
+
+width: 49px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3417 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 54px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Picante */
+
+width: 54px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 10px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 24px;
+
+background: #F8EBE7;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* NEW! */
+
+width: 26px;
+height: 12px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3418 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* – Coral Peach Tone */
+
+display: none;
+width: 125px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #8A8A8A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Compare */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+display: none;
+width: 222px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame 3416 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+width: 19px;
+height: 19px;
+
+background: #E7E6E6;
+box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ✓ */
+
+width: 9px;
+height: 11.59px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3417 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 66px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Compare */
+
+width: 66px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 10px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 24px;
+
+background: #F8EBE7;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* NEW! */
+
+width: 26px;
+height: 12px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3418 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* – Coral Peach Tone */
+
+display: none;
+width: 125px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #8A8A8A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 43px;
+gap: 8px;
+
+display: none;
+width: 293px;
+height: 53px;
+
+/* Primary 1 - 100 */
+background: #EDCDC2;
+border-radius: 11px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button Hover */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 43px;
+gap: 8px;
+
+display: none;
+width: 360px;
+height: 46px;
+
+/* Foundation /Black/black-700 */
+background: #000000;
+border-radius: 11px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Virtual */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 86.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* Try on */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 27px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* Virtual */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 17px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* New */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 32.06px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* NEW! */
+
+position: absolute;
+width: 52px;
+height: 13px;
+left: 0px;
+top: 20px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* Award */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 86.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* winner */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 27px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* award */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 17px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 10px;
+gap: 28px;
+isolation: isolate;
+
+width: 315px;
+height: 515px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 195 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px 0px 0px;
+gap: 10px;
+
+width: 283px;
+height: 340px;
+
+background: #F4F0E7;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 8 */
+
+width: 340.36px;
+height: 357.1px;
+
+background: url(packshot dotcom.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* heart-svgrepo-com 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 30px;
+height: 31px;
+right: 4px;
+top: 66px;
+
+background: #FFFFFF;
+border: 1px solid #D7D7D7;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Group */
+
+position: absolute;
+left: 29.93%;
+right: 29.93%;
+top: 32.17%;
+bottom: 28.67%;
+
+
+
+/* Active */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+left: 30%;
+right: 30%;
+top: 33.5%;
+bottom: 29.83%;
+
+/* White */
+background: #FFFFFF;
+/* DARK 100 */
+border: 1.2px solid #1A1A1A;
+
+
+/* Group 1 */
+
+position: absolute;
+height: 12.14px;
+left: 29.93%;
+right: 29.93%;
+top: calc(50% - 12.14px/2 + 0.54px);
+
+
+
+/* Union */
+
+position: absolute;
+left: 30%;
+right: 29.93%;
+top: 32.17%;
+bottom: 28.67%;
+
+border: 1.4px solid #858585;
+
+
+/* Vector */
+
+position: absolute;
+left: 30%;
+right: 13.06%;
+top: 32.17%;
+bottom: 67.83%;
+
+background: #000000;
+transform: matrix(0.7, 0.71, -0.7, 0.71, 0, 0);
+
+
+/* Union */
+
+position: absolute;
+left: 70%;
+right: -10.07%;
+top: 32.17%;
+bottom: 28.67%;
+
+border: 1.4px solid #858585;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 70%;
+right: -26.94%;
+top: 32.17%;
+bottom: 67.83%;
+
+background: #000000;
+transform: matrix(-0.7, 0.71, 0.7, 0.71, 0, 0);
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 295px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 623 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 248 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 17px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Nudies BRonze */
+
+width: 295px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 8 people have added this product to their cart today */
+
+display: none;
+width: 241px;
+height: 34px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* MATTE BLUSH STICK FOR CHEEKS + EYES ... */
+
+display: none;
+width: 293px;
+height: 16px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* DARK 70 */
+color: rgba(26, 26, 26, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3419 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 2px;
+
+display: none;
+width: 286px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 9px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* DARK 100 */
+border: 1px solid #1A1A1A;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #B86750;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #E5AF82;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #5B2F15;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3433 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #AF8056;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3434 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #944938;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3435 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #D6789A;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3436 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #943854;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3437 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #B54B5E;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3438 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #E26458;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3439 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #FA4415;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 25 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 61px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $43 */
+
+width: 32px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 23 */
+
+display: none;
+width: 28px;
+height: 17px;
+
+opacity: 0.4;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $72 */
+
+position: absolute;
+width: 24px;
+height: 17px;
+left: 2px;
+top: 73.76px;
+
+/* Desktop / Body Small Uppercase */
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-transform: uppercase;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+
+/* Vector 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 0px;
+top: 82.76px;
+
+/* DARK 100 */
+border: 1px solid #1A1A1A;
+
+
+/* Shade Name */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+display: none;
+width: 240px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 3416 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 49px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Shade: */
+
+width: 49px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3417 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 54px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Picante */
+
+width: 54px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 10px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 24px;
+
+background: #F8EBE7;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* NEW! */
+
+width: 26px;
+height: 12px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3418 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* – Coral Peach Tone */
+
+display: none;
+width: 125px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #8A8A8A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Compare */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+display: none;
+width: 222px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame 3416 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+width: 19px;
+height: 19px;
+
+background: #E7E6E6;
+box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ✓ */
+
+width: 9px;
+height: 11.59px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3417 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 66px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Compare */
+
+width: 66px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 10px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 24px;
+
+background: #F8EBE7;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* NEW! */
+
+width: 26px;
+height: 12px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3418 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* – Coral Peach Tone */
+
+display: none;
+width: 125px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #8A8A8A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 43px;
+gap: 8px;
+
+display: none;
+width: 293px;
+height: 53px;
+
+/* Primary 1 - 100 */
+background: #EDCDC2;
+border-radius: 11px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button Hover */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 43px;
+gap: 8px;
+
+display: none;
+width: 360px;
+height: 46px;
+
+/* Foundation /Black/black-700 */
+background: #000000;
+border-radius: 11px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Virtual */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 86.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* Try on */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 27px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* Virtual */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 17px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* New */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 32.06px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* NEW! */
+
+position: absolute;
+width: 52px;
+height: 13px;
+left: 0px;
+top: 20px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* Award */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 86.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* winner */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 27px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* award */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 17px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 10px;
+gap: 28px;
+isolation: isolate;
+
+width: 315px;
+height: 515px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 195 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px 0px 0px;
+gap: 10px;
+
+width: 283px;
+height: 340px;
+
+background: #F4F0E7;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 8 */
+
+width: 328.74px;
+height: 313.68px;
+
+background: url(Nudestix-DotCom-BubblyBebe-ProductPage-1.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* heart-svgrepo-com 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 30px;
+height: 31px;
+right: 4px;
+top: 66px;
+
+background: #FFFFFF;
+border: 1px solid #D7D7D7;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Group */
+
+position: absolute;
+left: 29.93%;
+right: 29.93%;
+top: 32.17%;
+bottom: 28.67%;
+
+
+
+/* Active */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+left: 30%;
+right: 30%;
+top: 33.5%;
+bottom: 29.83%;
+
+/* White */
+background: #FFFFFF;
+/* DARK 100 */
+border: 1.2px solid #1A1A1A;
+
+
+/* Group 1 */
+
+position: absolute;
+height: 12.14px;
+left: 29.93%;
+right: 29.93%;
+top: calc(50% - 12.14px/2 + 0.54px);
+
+
+
+/* Union */
+
+position: absolute;
+left: 30%;
+right: 29.93%;
+top: 32.17%;
+bottom: 28.67%;
+
+border: 1.4px solid #858585;
+
+
+/* Vector */
+
+position: absolute;
+left: 30%;
+right: 13.06%;
+top: 32.17%;
+bottom: 67.83%;
+
+background: #000000;
+transform: matrix(0.7, 0.71, -0.7, 0.71, 0, 0);
+
+
+/* Union */
+
+position: absolute;
+left: 70%;
+right: -10.07%;
+top: 32.17%;
+bottom: 28.67%;
+
+border: 1.4px solid #858585;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 70%;
+right: -26.94%;
+top: 32.17%;
+bottom: 67.83%;
+
+background: #000000;
+transform: matrix(-0.7, 0.71, 0.7, 0.71, 0, 0);
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 295px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 623 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 248 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 17px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Nudies Glow */
+
+width: 295px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 8 people have added this product to their cart today */
+
+display: none;
+width: 241px;
+height: 34px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* MATTE BLUSH STICK FOR CHEEKS + EYES ... */
+
+display: none;
+width: 293px;
+height: 16px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* DARK 70 */
+color: rgba(26, 26, 26, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3419 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 2px;
+
+display: none;
+width: 286px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 9px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* DARK 100 */
+border: 1px solid #1A1A1A;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #B86750;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #E5AF82;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #5B2F15;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3433 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #AF8056;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3434 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #944938;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3435 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #D6789A;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3436 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #943854;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3437 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #B54B5E;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3438 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #E26458;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3439 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #FA4415;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 25 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 61px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $43 */
+
+width: 32px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 23 */
+
+display: none;
+width: 28px;
+height: 17px;
+
+opacity: 0.4;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $72 */
+
+position: absolute;
+width: 24px;
+height: 17px;
+left: 2px;
+top: 73.76px;
+
+/* Desktop / Body Small Uppercase */
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-transform: uppercase;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+
+/* Vector 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 0px;
+top: 82.76px;
+
+/* DARK 100 */
+border: 1px solid #1A1A1A;
+
+
+/* Shade Name */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+display: none;
+width: 240px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 3416 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 49px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Shade: */
+
+width: 49px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3417 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 54px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Picante */
+
+width: 54px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 10px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 24px;
+
+background: #F8EBE7;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* NEW! */
+
+width: 26px;
+height: 12px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3418 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* – Coral Peach Tone */
+
+display: none;
+width: 125px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #8A8A8A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Compare */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+display: none;
+width: 222px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame 3416 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+width: 19px;
+height: 19px;
+
+background: #E7E6E6;
+box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ✓ */
+
+width: 9px;
+height: 11.59px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3417 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 66px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Compare */
+
+width: 66px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 10px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 24px;
+
+background: #F8EBE7;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* NEW! */
+
+width: 26px;
+height: 12px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3418 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* – Coral Peach Tone */
+
+display: none;
+width: 125px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #8A8A8A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 43px;
+gap: 8px;
+
+display: none;
+width: 293px;
+height: 53px;
+
+/* Primary 1 - 100 */
+background: #EDCDC2;
+border-radius: 11px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button Hover */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 43px;
+gap: 8px;
+
+display: none;
+width: 360px;
+height: 46px;
+
+/* Foundation /Black/black-700 */
+background: #000000;
+border-radius: 11px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* heart-svgrepo-com 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+display: none;
+width: 30px;
+height: 30.7px;
+left: 12px;
+top: 32.06px;
+
+background: #FFFFFF;
+border: 1px solid #D7D7D7;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Group */
+
+position: absolute;
+left: 13.33%;
+right: 16.67%;
+top: 10.16%;
+bottom: 13.18%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 13.33%;
+right: 16.67%;
+top: 10.16%;
+bottom: 13.18%;
+
+
+
+/* Active */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 30%;
+right: 30%;
+top: 33.5%;
+bottom: 29.83%;
+
+/* White */
+background: #FFFFFF;
+/* DARK 100 */
+border: 1.2px solid #1A1A1A;
+
+
+/* Virtual */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 86.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* Try on */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 27px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* Virtual */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 17px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* New */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 32.06px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* NEW! */
+
+position: absolute;
+width: 52px;
+height: 13px;
+left: 0px;
+top: 20px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* Award */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 86.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* winner */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 27px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* award */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 17px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 10px;
+gap: 28px;
+isolation: isolate;
+
+width: 315px;
+height: 515px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 195 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px 0px 0px;
+gap: 10px;
+
+width: 293px;
+height: 340px;
+
+background: #F4F0E7;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 8 */
+
+width: 311.71px;
+height: 284px;
+
+background: url(01-Nudestix-Nudies-Matte-Glow-Core-GLOBAL-Magenta-Magic.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* heart-svgrepo-com 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 30px;
+height: 31px;
+right: 1px;
+top: 66px;
+
+background: #FFFFFF;
+border: 1px solid #D7D7D7;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Group */
+
+position: absolute;
+left: 29.93%;
+right: 29.93%;
+top: 32.17%;
+bottom: 28.67%;
+
+
+
+/* Active */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+left: 30%;
+right: 30%;
+top: 33.5%;
+bottom: 29.83%;
+
+/* White */
+background: #FFFFFF;
+/* DARK 100 */
+border: 1.2px solid #1A1A1A;
+
+
+/* Group 1 */
+
+position: absolute;
+height: 12.14px;
+left: 29.93%;
+right: 29.93%;
+top: calc(50% - 12.14px/2 + 0.54px);
+
+
+
+/* Union */
+
+position: absolute;
+left: 30%;
+right: 29.93%;
+top: 32.17%;
+bottom: 28.67%;
+
+border: 1.4px solid #858585;
+
+
+/* Vector */
+
+position: absolute;
+left: 30%;
+right: 13.06%;
+top: 32.17%;
+bottom: 67.83%;
+
+background: #000000;
+transform: matrix(0.7, 0.71, -0.7, 0.71, 0, 0);
+
+
+/* Union */
+
+position: absolute;
+left: 70%;
+right: -10.07%;
+top: 32.17%;
+bottom: 28.67%;
+
+border: 1.4px solid #858585;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 70%;
+right: -26.94%;
+top: 32.17%;
+bottom: 67.83%;
+
+background: #000000;
+transform: matrix(-0.7, 0.71, 0.7, 0.71, 0, 0);
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 295px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 623 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 248 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 17px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* NUDIES MATTE + GLOW CORE */
+
+width: 295px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 8 people have added this product to their cart today */
+
+display: none;
+width: 241px;
+height: 34px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* MATTE BLUSH STICK FOR CHEEKS + EYES ... */
+
+display: none;
+width: 293px;
+height: 16px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* DARK 70 */
+color: rgba(26, 26, 26, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3419 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 2px;
+
+display: none;
+width: 286px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 9px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* DARK 100 */
+border: 1px solid #1A1A1A;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #B86750;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #E5AF82;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Color */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #5B2F15;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3433 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #AF8056;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3434 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #944938;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3435 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #D6789A;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3436 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #943854;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3437 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #B54B5E;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3438 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #E26458;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 3439 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+
+
+/* color simple */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2.54545px;
+gap: 12.73px;
+
+width: 36px;
+height: 36px;
+
+background: #FFFFFF;
+/* White */
+border: 1.27273px solid #FFFFFF;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 17 */
+
+width: 30.91px;
+height: 30.91px;
+
+background: #FA4415;
+border-radius: 636.364px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 25 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 295px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 61px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $43 */
+
+width: 32px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 23 */
+
+display: none;
+width: 28px;
+height: 17px;
+
+opacity: 0.4;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $72 */
+
+position: absolute;
+width: 24px;
+height: 17px;
+left: 2px;
+top: 73.76px;
+
+/* Desktop / Body Small Uppercase */
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-transform: uppercase;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+
+/* Vector 5 */
+
+position: absolute;
+width: 28px;
+height: 0px;
+left: 0px;
+top: 82.76px;
+
+/* DARK 100 */
+border: 1px solid #1A1A1A;
+
+
+/* Shade Name */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+display: none;
+width: 240px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 3416 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+
+width: 49px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Shade: */
+
+width: 49px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3417 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 54px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Picante */
+
+width: 54px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 10px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 24px;
+
+background: #F8EBE7;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* NEW! */
+
+width: 26px;
+height: 12px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3418 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* – Coral Peach Tone */
+
+display: none;
+width: 125px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #8A8A8A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Compare */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+display: none;
+width: 222px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame 3416 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+width: 19px;
+height: 19px;
+
+background: #E7E6E6;
+box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ✓ */
+
+width: 9px;
+height: 11.59px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3417 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 66px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Compare */
+
+width: 66px;
+height: 19px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 10px;
+gap: 10px;
+
+display: none;
+width: 46px;
+height: 24px;
+
+background: #F8EBE7;
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* NEW! */
+
+width: 26px;
+height: 12px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3418 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* – Coral Peach Tone */
+
+display: none;
+width: 125px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #8A8A8A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 43px;
+gap: 8px;
+
+display: none;
+width: 293px;
+height: 53px;
+
+/* Primary 1 - 100 */
+background: #EDCDC2;
+border-radius: 11px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button Hover */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 43px;
+gap: 8px;
+
+display: none;
+width: 360px;
+height: 46px;
+
+/* Foundation /Black/black-700 */
+background: #000000;
+border-radius: 11px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* heart-svgrepo-com 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+display: none;
+width: 30px;
+height: 30.7px;
+left: 12px;
+top: 32.06px;
+
+background: #FFFFFF;
+border: 1px solid #D7D7D7;
+border-radius: 99px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Group */
+
+position: absolute;
+left: 13.33%;
+right: 16.67%;
+top: 10.16%;
+bottom: 13.18%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 13.33%;
+right: 16.67%;
+top: 10.16%;
+bottom: 13.18%;
+
+
+
+/* Active */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 30%;
+right: 30%;
+top: 33.5%;
+bottom: 29.83%;
+
+/* White */
+background: #FFFFFF;
+/* DARK 100 */
+border: 1.2px solid #1A1A1A;
+
+
+/* Virtual */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 86.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* Try on */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 27px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* Virtual */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 17px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* New */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 32.06px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* NEW! */
+
+position: absolute;
+width: 52px;
+height: 13px;
+left: 0px;
+top: 20px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* Award */
+
+position: absolute;
+display: none;
+width: 52px;
+height: 52px;
+right: 12px;
+top: 86.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Foundation /Black/black-300 */
+border: 1px dashed #545454;
+
+
+/* winner */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 27px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* award */
+
+position: absolute;
+width: 52px;
+height: 11px;
+left: 0px;
+top: 17px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Foundation /Black/black-400 */
+color: #333333;
+
+
+
+/* Frame 3490 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 30px 0px 0px;
+
+position: absolute;
+width: 1560px;
+height: 80.53px;
+left: 0px;
+top: 515px;
+
+background: #FDF9F8;
+border-bottom: 1px solid #D7D7D7;
+
+
+/* Frame 3493 */
+
+width: 270px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ratings */
+
+position: absolute;
+width: 75px;
+height: 22px;
+left: calc(50% - 75px/2 + 0.5px);
+top: calc(50% - 22px/2);
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 122%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Frame 3494 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3420 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 133px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 78px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 6.25%;
+right: 12.5%;
+top: 9.38%;
+bottom: 9.38%;
+
+border: 1px solid #000000;
+
+
+/* Intersect */
+
+position: absolute;
+width: 7px;
+height: 13px;
+left: 8px;
+top: 1.5px;
+
+background: #000000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 93.75%;
+right: -81.25%;
+top: 9.38%;
+bottom: 9.38%;
+
+background: #000000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 50%;
+right: -18.75%;
+top: 3.12%;
+bottom: -9.38%;
+
+background: #D9D9D9;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 1px 0px 0px;
+gap: 10px;
+
+width: 31px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* (1235) */
+
+width: 31px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+text-decoration-line: underline;
+text-transform: uppercase;
+
+/* DARK 70 */
+color: rgba(26, 26, 26, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3495 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 10px;
+gap: 10px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3420 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 133px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 78px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 6.25%;
+right: 12.5%;
+top: 9.38%;
+bottom: 9.38%;
+
+border: 1px solid #000000;
+
+
+/* Intersect */
+
+position: absolute;
+width: 7px;
+height: 13px;
+left: 8px;
+top: 1.5px;
+
+background: #000000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 93.75%;
+right: -81.25%;
+top: 9.38%;
+bottom: 9.38%;
+
+background: #000000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 50%;
+right: -18.75%;
+top: 3.12%;
+bottom: -9.38%;
+
+background: #D9D9D9;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 1px 0px 0px;
+gap: 10px;
+
+width: 31px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* (1235) */
+
+width: 31px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+text-decoration-line: underline;
+text-transform: uppercase;
+
+/* DARK 70 */
+color: rgba(26, 26, 26, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3496 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 10px;
+gap: 10px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3420 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 133px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 78px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 6.25%;
+right: 12.5%;
+top: 9.38%;
+bottom: 9.38%;
+
+border: 1px solid #000000;
+
+
+/* Intersect */
+
+position: absolute;
+width: 7px;
+height: 13px;
+left: 8px;
+top: 1.5px;
+
+background: #000000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 93.75%;
+right: -81.25%;
+top: 9.38%;
+bottom: 9.38%;
+
+background: #000000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 50%;
+right: -18.75%;
+top: 3.12%;
+bottom: -9.38%;
+
+background: #D9D9D9;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 1px 0px 0px;
+gap: 10px;
+
+width: 31px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* (1235) */
+
+width: 31px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+text-decoration-line: underline;
+text-transform: uppercase;
+
+/* DARK 70 */
+color: rgba(26, 26, 26, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3497 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 10px;
+gap: 10px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3420 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 133px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 78px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 6.25%;
+right: 12.5%;
+top: calc(50% - 13px/2);
+
+background: #000000;
+
+
+/* ic:outline-star-purple500 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 6.25%;
+right: 12.5%;
+top: 9.38%;
+bottom: 9.38%;
+
+border: 1px solid #000000;
+
+
+/* Intersect */
+
+position: absolute;
+width: 7px;
+height: 13px;
+left: 8px;
+top: 1.5px;
+
+background: #000000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 93.75%;
+right: -81.25%;
+top: 9.38%;
+bottom: 9.38%;
+
+background: #000000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 50%;
+right: -18.75%;
+top: 3.12%;
+bottom: -9.38%;
+
+background: #D9D9D9;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 1px 0px 0px;
+gap: 10px;
+
+width: 31px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* (1235) */
+
+width: 31px;
+height: 15px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+text-decoration-line: underline;
+text-transform: uppercase;
+
+/* DARK 70 */
+color: rgba(26, 26, 26, 0.7);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3492 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 30px 0px 0px;
+
+position: absolute;
+width: 1560px;
+height: 80.53px;
+left: 0px;
+top: 595.53px;
+
+background: #FDF9F8;
+border-bottom: 1px solid #D7D7D7;
+
+
+/* Frame 3498 */
+
+width: 270px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Product Type */
+
+position: absolute;
+width: 134px;
+height: 22px;
+left: calc(50% - 134px/2);
+top: calc(50% - 22px/2);
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 122%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Frame 3417 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Multi-tasking Blush Stick */
+
+width: 197px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3499 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Multi-tasking Bronzer Stick */
+
+width: 215px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3500 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Multi-tasking Highlighter Stick */
+
+width: 241px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3501 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Multi-tasking Blush + Glow Stick */
+
+width: 256px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3493 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 30px 0px 0px;
+
+position: absolute;
+width: 1560px;
+height: 80.53px;
+left: 0px;
+top: 676.05px;
+
+background: #FDF9F8;
+border-bottom: 1px solid #D7D7D7;
+
+
+/* Frame 3498 */
+
+width: 270px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FInish */
+
+position: absolute;
+width: 58px;
+height: 22px;
+left: calc(50% - 58px/2);
+top: calc(50% - 22px/2);
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 122%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Frame 3417 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Matte */
+
+width: 47px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3499 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Matte Bronze */
+
+width: 108px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3500 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Dewy Highlight */
+
+width: 124px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3501 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Matte Blush + Dewy Highlight */
+
+width: 238px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3498 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 30px 0px 0px;
+
+position: absolute;
+width: 1560px;
+height: 80.53px;
+left: 0px;
+top: 756.58px;
+
+background: #FDF9F8;
+border-bottom: 1px solid #D7D7D7;
+
+
+/* Frame 3498 */
+
+width: 270px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Skin Type */
+
+position: absolute;
+width: 89px;
+height: 22px;
+left: calc(50% - 89px/2 + 0.5px);
+top: calc(50% - 22px/2);
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 122%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Frame 3417 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* All Skin Types */
+
+width: 113px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3499 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* All Skin Types */
+
+width: 113px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3500 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* All Skin Types */
+
+width: 113px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3501 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* All Skin Types */
+
+width: 113px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3499 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 30px 0px 0px;
+
+position: absolute;
+width: 1560px;
+height: 108px;
+left: 0px;
+top: 837.1px;
+
+background: #FDF9F8;
+border-bottom: 1px solid #D7D7D7;
+
+
+/* Frame 3498 */
+
+width: 270px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Benefits */
+
+position: absolute;
+width: 83px;
+height: 22px;
+left: calc(50% - 83px/2 + 0.5px);
+top: calc(50% - 22px/2);
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 122%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Frame 3417 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 8px;
+
+width: 315px;
+height: 108px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Vegan Gluten-Free Cruelty-Free Fragrance-Free */
+
+width: 151px;
+height: 88px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3499 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 108px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Vegan Gluten-Free Cruelty-Free Fragrance-Free */
+
+width: 151px;
+height: 88px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3500 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 108px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Vegan Gluten-Free Cruelty-Free Fragrance-Free */
+
+width: 151px;
+height: 88px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3501 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 108px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Vegan Gluten-Free Cruelty-Free Fragrance-Free */
+
+width: 151px;
+height: 88px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3500 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 30px 0px 0px;
+
+position: absolute;
+width: 1560px;
+height: 80.53px;
+left: 0px;
+top: 945.1px;
+
+background: #FDF9F8;
+border-bottom: 1px solid #D7D7D7;
+
+
+/* Frame 3498 */
+
+width: 270px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Features */
+
+position: absolute;
+width: 89px;
+height: 22px;
+left: calc(50% - 89px/2 + 0.5px);
+top: calc(50% - 22px/2);
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 122%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Frame 3417 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Detachable brush for easy on-the -go blending. */
+
+width: 295px;
+height: 44px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Frame 3499 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Detachable brush for easy on-the -go blending. */
+
+width: 216px;
+height: 44px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3500 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Detachable brush for easy on-the -go blending. */
+
+width: 216px;
+height: 44px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3501 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Brushless with easy ID color cap for easy travel and on-the-go selection. */
+
+width: 295px;
+height: 44px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Frame 3501 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 30px 0px 0px;
+
+position: absolute;
+width: 1560px;
+height: 80.53px;
+left: 0px;
+top: 1025.63px;
+
+background: #FDF9F8;
+border-bottom: 1px solid #D7D7D7;
+
+
+/* Frame 3498 */
+
+width: 270px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shade Range */
+
+position: absolute;
+width: 125px;
+height: 22px;
+left: calc(50% - 125px/2 + 0.5px);
+top: calc(50% - 22px/2);
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 122%;
+/* identical to box height, or 22px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* Frame 3417 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 12 Shades */
+
+width: 295px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Frame 3499 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 8 Shades */
+
+width: 75px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3500 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 6 Shades */
+
+width: 75px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3501 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 10px;
+gap: 8px;
+
+width: 315px;
+height: 80.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 7 Shades */
+
+width: 295px;
+height: 22px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* DARK 100 */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
